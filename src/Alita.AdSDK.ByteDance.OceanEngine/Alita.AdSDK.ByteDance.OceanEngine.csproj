@@ -8,7 +8,7 @@
 		<Version>0.0.1</Version>
 		<Authors>Lucio</Authors>
 		<Description>巨量引擎 Marketing API 的 .NET 客户端，包含巨量千川。</Description>
-		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<RepositoryUrl>https://github.com/lucio-c/Alita.AdSDK.ByteDance</RepositoryUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<TargetsForTfmSpecificBuildOutput>
@@ -26,6 +26,8 @@
 		  Include="..\Alita.AdSDK.ByteDance.OceanEngine.Api\Alita.AdSDK.ByteDance.OceanEngine.Api.csproj"
 		  PrivateAssets="All" />
 		<None Include="..\..\docs\README.md" Pack="true" PackagePath="\" />
+		<None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
+		<None Include="..\..\NOTICE" Pack="true" PackagePath="\" />
 	</ItemGroup>
 	<Target Name="CopyProjectReferencesToPackage" DependsOnTargets="ResolveReferences">
 		<ItemGroup>
