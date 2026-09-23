@@ -1,18 +1,37 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PackageId>Alita.AdSDK.ByteDance.OceanEngine</PackageId>
+		<Version>0.0.1</Version>
+		<Authors>Lucio</Authors>
+		<Description>巨量引擎 Marketing API 的 .NET 客户端，包含巨量千川。</Description>
+		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/lucio-c/Alita.AdSDK.ByteDance</RepositoryUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<TargetsForTfmSpecificBuildOutput>
+			$(TargetsForTfmSpecificBuildOutput);CopyProjectReferencesToPackage
+		</TargetsForTfmSpecificBuildOutput>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.1" />
-    <PackageReference Include="Microsoft.Kiota.Bundle" Version="2.0.0" />
-  </ItemGroup>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Alita.AdSDK.ByteDance.OceanEngine.Api\Alita.AdSDK.ByteDance.OceanEngine.Api.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Http" Version="8.0.1" />
+		<PackageReference Include="Microsoft.Kiota.Bundle" Version="2.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference
+		  Include="..\Alita.AdSDK.ByteDance.OceanEngine.Api\Alita.AdSDK.ByteDance.OceanEngine.Api.csproj"
+		  PrivateAssets="All" />
+		<None Include="..\..\docs\README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+	<Target Name="CopyProjectReferencesToPackage" DependsOnTargets="ResolveReferences">
+		<ItemGroup>
+			<BuildOutputInPackage
+			  Include="@(ReferenceCopyLocalPaths-&gt;WithMetadataValue('ReferenceSourceTarget', 'ProjectReference')-&gt;WithMetadataValue('PrivateAssets', 'All'))" />
+		</ItemGroup>
+	</Target>
 
 </Project>
