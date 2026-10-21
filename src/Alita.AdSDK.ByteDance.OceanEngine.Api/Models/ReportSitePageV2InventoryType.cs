@@ -7,25 +7,25 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ReportSitePageV2InventoryType
     {
-        [EnumMember(Value = "HOTSOON")]
-        #pragma warning disable CS1591
-        HOTSOON,
-        #pragma warning restore CS1591
         [EnumMember(Value = "UNION_SLOT")]
         #pragma warning disable CS1591
         UNION_SLOT,
         #pragma warning restore CS1591
-        [EnumMember(Value = "AWEME")]
+        [EnumMember(Value = "TOUTIAO")]
         #pragma warning disable CS1591
-        AWEME,
+        TOUTIAO,
         #pragma warning restore CS1591
         [EnumMember(Value = "WATERMELON")]
         #pragma warning disable CS1591
         WATERMELON,
         #pragma warning restore CS1591
-        [EnumMember(Value = "TOUTIAO")]
+        [EnumMember(Value = "HOTSOON")]
         #pragma warning disable CS1591
-        TOUTIAO,
+        HOTSOON,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "AWEME")]
+        #pragma warning disable CS1591
+        AWEME,
         #pragma warning restore CS1591
     }
 }

@@ -7,10 +7,6 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum AdGetV2DataUnionVideoType
     {
-        [EnumMember(Value = "SPLASH_VIDEO")]
-        #pragma warning disable CS1591
-        SPLASH_VIDEO,
-        #pragma warning restore CS1591
         [EnumMember(Value = "ORIGINAL_VIDEO")]
         #pragma warning disable CS1591
         ORIGINAL_VIDEO,
@@ -18,6 +14,10 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         [EnumMember(Value = "REWARDED_VIDEO")]
         #pragma warning disable CS1591
         REWARDED_VIDEO,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "SPLASH_VIDEO")]
+        #pragma warning disable CS1591
+        SPLASH_VIDEO,
         #pragma warning restore CS1591
     }
 }

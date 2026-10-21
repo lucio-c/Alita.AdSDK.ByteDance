@@ -7,17 +7,17 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ToolsAppManagementExtendPackageUpdateV2Mode
     {
-        [EnumMember(Value = "List")]
+        [EnumMember(Value = "All")]
         #pragma warning disable CS1591
-        List,
+        All,
         #pragma warning restore CS1591
         [EnumMember(Value = "Customize")]
         #pragma warning disable CS1591
         Customize,
         #pragma warning restore CS1591
-        [EnumMember(Value = "All")]
+        [EnumMember(Value = "List")]
         #pragma warning disable CS1591
-        All,
+        List,
         #pragma warning restore CS1591
     }
 }

@@ -7,13 +7,13 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ToolsBidSuggestV2DpaRtaRecommendType
     {
-        [EnumMember(Value = "ONLY")]
-        #pragma warning disable CS1591
-        ONLY,
-        #pragma warning restore CS1591
         [EnumMember(Value = "MORE")]
         #pragma warning disable CS1591
         MORE,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "ONLY")]
+        #pragma warning disable CS1591
+        ONLY,
         #pragma warning restore CS1591
     }
 }

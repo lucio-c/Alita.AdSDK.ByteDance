@@ -8,12 +8,16 @@ using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Aic;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Analytics;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Audience_package;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Audience_package_bindinfo;
+using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Available_payments;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Brand;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Budget_group;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Business_platform;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Cdp;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Cg_transfer;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Charge;
+using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Charge_info_order_no;
+using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Charge_info_payment_voucher;
+using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Charge_tag;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Creative;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Customer_center;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Dcd;
@@ -26,6 +30,8 @@ using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.FileNamespace;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Fix_remittance_code;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Game_addiction_id;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Gameplay;
+using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Going_global;
+using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Going_global_roi_suggest;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Invoice;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Ios_app;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Keyword;
@@ -118,6 +124,11 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30
         {
             get => new global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Audience_package_bindinfo.Audience_package_bindinfoRequestBuilder(PathParameters, RequestAdapter);
         }
+        /// <summary>The available_payments property</summary>
+        public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Available_payments.Available_paymentsRequestBuilder Available_payments
+        {
+            get => new global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Available_payments.Available_paymentsRequestBuilder(PathParameters, RequestAdapter);
+        }
         /// <summary>The brand property</summary>
         public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Brand.BrandRequestBuilder Brand
         {
@@ -147,6 +158,21 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30
         public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Charge.ChargeRequestBuilder Charge
         {
             get => new global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Charge.ChargeRequestBuilder(PathParameters, RequestAdapter);
+        }
+        /// <summary>The charge_info_order_no property</summary>
+        public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Charge_info_order_no.Charge_info_order_noRequestBuilder Charge_info_order_no
+        {
+            get => new global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Charge_info_order_no.Charge_info_order_noRequestBuilder(PathParameters, RequestAdapter);
+        }
+        /// <summary>The charge_info_payment_voucher property</summary>
+        public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Charge_info_payment_voucher.Charge_info_payment_voucherRequestBuilder Charge_info_payment_voucher
+        {
+            get => new global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Charge_info_payment_voucher.Charge_info_payment_voucherRequestBuilder(PathParameters, RequestAdapter);
+        }
+        /// <summary>The charge_tag property</summary>
+        public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Charge_tag.Charge_tagRequestBuilder Charge_tag
+        {
+            get => new global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Charge_tag.Charge_tagRequestBuilder(PathParameters, RequestAdapter);
         }
         /// <summary>The creative property</summary>
         public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Creative.CreativeRequestBuilder Creative
@@ -207,6 +233,16 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30
         public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Gameplay.GameplayRequestBuilder Gameplay
         {
             get => new global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Gameplay.GameplayRequestBuilder(PathParameters, RequestAdapter);
+        }
+        /// <summary>The going_global property</summary>
+        public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Going_global.Going_globalRequestBuilder Going_global
+        {
+            get => new global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Going_global.Going_globalRequestBuilder(PathParameters, RequestAdapter);
+        }
+        /// <summary>The going_global_roi_suggest property</summary>
+        public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Going_global_roi_suggest.Going_global_roi_suggestRequestBuilder Going_global_roi_suggest
+        {
+            get => new global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Going_global_roi_suggest.Going_global_roi_suggestRequestBuilder(PathParameters, RequestAdapter);
         }
         /// <summary>The invoice property</summary>
         public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Invoice.InvoiceRequestBuilder Invoice

@@ -7,10 +7,6 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum CreativeProceduralCreativeUpdateV2AdDataAnchorRelatedType
     {
-        [EnumMember(Value = "AUTO")]
-        #pragma warning disable CS1591
-        AUTO,
-        #pragma warning restore CS1591
         [EnumMember(Value = "SELECT")]
         #pragma warning disable CS1591
         SELECT,
@@ -18,6 +14,10 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         [EnumMember(Value = "OFF")]
         #pragma warning disable CS1591
         OFF,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "AUTO")]
+        #pragma warning disable CS1591
+        AUTO,
         #pragma warning restore CS1591
     }
 }

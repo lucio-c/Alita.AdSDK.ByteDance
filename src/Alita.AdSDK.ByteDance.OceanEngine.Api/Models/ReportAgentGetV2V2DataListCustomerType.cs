@@ -7,97 +7,97 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ReportAgentGetV2V2DataListCustomerType
     {
-        [EnumMember(Value = "VIRTUAL_SMB")]
+        [EnumMember(Value = "LA")]
         #pragma warning disable CS1591
-        VIRTUAL_SMB,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "LOCAL")]
-        #pragma warning disable CS1591
-        LOCAL,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "BRANCH")]
-        #pragma warning disable CS1591
-        BRANCH,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "REGION")]
-        #pragma warning disable CS1591
-        REGION,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "DSP")]
-        #pragma warning disable CS1591
-        DSP,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "VERTICAL")]
-        #pragma warning disable CS1591
-        VERTICAL,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "INTERNAL")]
-        #pragma warning disable CS1591
-        INTERNAL,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "VIRTUAL_LA")]
-        #pragma warning disable CS1591
-        VIRTUAL_LA,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "SELF_SERVICE")]
-        #pragma warning disable CS1591
-        SELF_SERVICE,
+        LA,
         #pragma warning restore CS1591
         [EnumMember(Value = "KA")]
         #pragma warning disable CS1591
         KA,
         #pragma warning restore CS1591
-        [EnumMember(Value = "LA_AGENT")]
+        [EnumMember(Value = "DSP")]
         #pragma warning disable CS1591
-        LA_AGENT,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "VIRTUAL_CUS")]
-        #pragma warning disable CS1591
-        VIRTUAL_CUS,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "LA")]
-        #pragma warning disable CS1591
-        LA,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "I18N_ADV")]
-        #pragma warning disable CS1591
-        I18N_ADV,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "VIRTUAL_KA")]
-        #pragma warning disable CS1591
-        VIRTUAL_KA,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "EXCHANGE")]
-        #pragma warning disable CS1591
-        EXCHANGE,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "KA_AGENT")]
-        #pragma warning disable CS1591
-        KA_AGENT,
+        DSP,
         #pragma warning restore CS1591
         [EnumMember(Value = "SMB")]
         #pragma warning disable CS1591
         SMB,
         #pragma warning restore CS1591
-        [EnumMember(Value = "SMB_AGENT")]
+        [EnumMember(Value = "LA_AGENT")]
         #pragma warning disable CS1591
-        SMB_AGENT,
+        LA_AGENT,
         #pragma warning restore CS1591
-        [EnumMember(Value = "GAME")]
+        [EnumMember(Value = "BRANCH")]
         #pragma warning disable CS1591
-        GAME,
+        BRANCH,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "VIRTUAL_CUS")]
+        #pragma warning disable CS1591
+        VIRTUAL_CUS,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "EXCHANGE")]
+        #pragma warning disable CS1591
+        EXCHANGE,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "REGION")]
+        #pragma warning disable CS1591
+        REGION,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "INTERNET")]
+        #pragma warning disable CS1591
+        INTERNET,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "KA_AGENT")]
+        #pragma warning disable CS1591
+        KA_AGENT,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "VERTICAL")]
+        #pragma warning disable CS1591
+        VERTICAL,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "LOCAL")]
+        #pragma warning disable CS1591
+        LOCAL,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "SELF_SERVICE")]
+        #pragma warning disable CS1591
+        SELF_SERVICE,
         #pragma warning restore CS1591
         [EnumMember(Value = "I18N_AGENT")]
         #pragma warning disable CS1591
         I18N_AGENT,
         #pragma warning restore CS1591
+        [EnumMember(Value = "VIRTUAL_KA")]
+        #pragma warning disable CS1591
+        VIRTUAL_KA,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "INTERNAL")]
+        #pragma warning disable CS1591
+        INTERNAL,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "SMB_AGENT")]
+        #pragma warning disable CS1591
+        SMB_AGENT,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "VIRTUAL_LA")]
+        #pragma warning disable CS1591
+        VIRTUAL_LA,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "VIRTUAL_SMB")]
+        #pragma warning disable CS1591
+        VIRTUAL_SMB,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "GAME")]
+        #pragma warning disable CS1591
+        GAME,
+        #pragma warning restore CS1591
         [EnumMember(Value = "OVERSEA_VIRTUAL")]
         #pragma warning disable CS1591
         OVERSEA_VIRTUAL,
         #pragma warning restore CS1591
-        [EnumMember(Value = "INTERNET")]
+        [EnumMember(Value = "I18N_ADV")]
         #pragma warning disable CS1591
-        INTERNET,
+        I18N_ADV,
         #pragma warning restore CS1591
     }
 }

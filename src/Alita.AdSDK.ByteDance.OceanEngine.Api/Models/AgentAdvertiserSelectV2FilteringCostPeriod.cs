@@ -7,25 +7,25 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum AgentAdvertiserSelectV2FilteringCostPeriod
     {
-        [EnumMember(Value = "LAST_15_DAYS")]
+        [EnumMember(Value = "TODAY")]
         #pragma warning disable CS1591
-        LAST_15_DAYS,
+        TODAY,
         #pragma warning restore CS1591
         [EnumMember(Value = "YESTERDAY")]
         #pragma warning disable CS1591
         YESTERDAY,
         #pragma warning restore CS1591
-        [EnumMember(Value = "LAST_30_DAYS")]
-        #pragma warning disable CS1591
-        LAST_30_DAYS,
-        #pragma warning restore CS1591
         [EnumMember(Value = "LAST_7_DAYS")]
         #pragma warning disable CS1591
         LAST_7_DAYS,
         #pragma warning restore CS1591
-        [EnumMember(Value = "TODAY")]
+        [EnumMember(Value = "LAST_30_DAYS")]
         #pragma warning disable CS1591
-        TODAY,
+        LAST_30_DAYS,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "LAST_15_DAYS")]
+        #pragma warning disable CS1591
+        LAST_15_DAYS,
         #pragma warning restore CS1591
     }
 }

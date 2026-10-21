@@ -7,13 +7,13 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum AudiencePackageCreateV2AdType
     {
-        [EnumMember(Value = "ALL")]
-        #pragma warning disable CS1591
-        ALL,
-        #pragma warning restore CS1591
         [EnumMember(Value = "SEARCH")]
         #pragma warning disable CS1591
         SEARCH,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "ALL")]
+        #pragma warning disable CS1591
+        ALL,
         #pragma warning restore CS1591
     }
 }

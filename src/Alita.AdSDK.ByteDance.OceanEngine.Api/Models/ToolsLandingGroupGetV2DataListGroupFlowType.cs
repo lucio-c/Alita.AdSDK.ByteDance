@@ -7,13 +7,13 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ToolsLandingGroupGetV2DataListGroupFlowType
     {
-        [EnumMember(Value = "FLOW_DISTRIBUTION_TYPE_AVERAGE")]
-        #pragma warning disable CS1591
-        FLOW_DISTRIBUTION_TYPE_AVERAGE,
-        #pragma warning restore CS1591
         [EnumMember(Value = "FLOW_DISTRIBUTION_TYPE_INTELLIGENCE")]
         #pragma warning disable CS1591
         FLOW_DISTRIBUTION_TYPE_INTELLIGENCE,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "FLOW_DISTRIBUTION_TYPE_AVERAGE")]
+        #pragma warning disable CS1591
+        FLOW_DISTRIBUTION_TYPE_AVERAGE,
         #pragma warning restore CS1591
     }
 }

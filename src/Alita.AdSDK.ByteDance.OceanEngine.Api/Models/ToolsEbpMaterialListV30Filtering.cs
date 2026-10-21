@@ -22,6 +22,14 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
 #else
         public List<long?> CustomTagIds { get; set; }
 #endif
+        /// <summary>截止时间，yyyy-mm-dd hh:mm:ss</summary>
+#if NETSTANDARD2_1_OR_GREATER || NETCOREAPP3_1_OR_GREATER
+#nullable enable
+        public string? EndTime { get; set; }
+#nullable restore
+#else
+        public string EndTime { get; set; }
+#endif
         /// <summary>评估类型：FIRST_PUBLISH=首发，AD_HIGH_QUALITY=AD 优质，ECP_HIGH_QUALITY=ECP 优质 优质素材需同时传入 AD 和 ECP 两种</summary>
 #if NETSTANDARD2_1_OR_GREATER || NETCOREAPP3_1_OR_GREATER
 #nullable enable
@@ -54,6 +62,14 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
 #else
         public string MaterialName { get; set; }
 #endif
+        /// <summary>开始时间，yyyy-mm-dd hh:mm:ss</summary>
+#if NETSTANDARD2_1_OR_GREATER || NETCOREAPP3_1_OR_GREATER
+#nullable enable
+        public string? StartTime { get; set; }
+#nullable restore
+#else
+        public string StartTime { get; set; }
+#endif
         /// <summary>EBP 系统标签稳定配置 ID</summary>
 #if NETSTANDARD2_1_OR_GREATER || NETCOREAPP3_1_OR_GREATER
 #nullable enable
@@ -82,16 +98,18 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         /// <summary>
         /// 当前模型的反序列化字段映射。
         /// </summary>
-        /// <returns>IDictionary&lt;string, Action&lt;IParseNode&gt;&gt;</returns>
+        /// <returns>返回 IDictionary&lt;string, Action&lt;IParseNode&gt;&gt;</returns>
         public virtual IDictionary<string, Action<IParseNode>> GetFieldDeserializers()
         {
             return new Dictionary<string, Action<IParseNode>>
             {
                 { "custom_tag_ids", n => { CustomTagIds = n.GetCollectionOfPrimitiveValues<long?>()?.AsList(); } },
+                { "end_time", n => { EndTime = n.GetStringValue(); } },
                 { "evaluate_types", n => { EvaluateTypes = n.GetCollectionOfEnumValues<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.ToolsEbpMaterialListV30FilteringEvaluateTypes>()?.AsList(); } },
                 { "image_modes", n => { ImageModes = n.GetCollectionOfEnumValues<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.ToolsEbpMaterialListV30FilteringImageModes>()?.AsList(); } },
                 { "material_ids", n => { MaterialIds = n.GetCollectionOfPrimitiveValues<long?>()?.AsList(); } },
                 { "material_name", n => { MaterialName = n.GetStringValue(); } },
+                { "start_time", n => { StartTime = n.GetStringValue(); } },
                 { "system_tag_ids", n => { SystemTagIds = n.GetCollectionOfPrimitiveValues<long?>()?.AsList(); } },
             };
         }
@@ -103,10 +121,12 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         {
             if(ReferenceEquals(writer, null)) throw new ArgumentNullException(nameof(writer));
             writer.WriteCollectionOfPrimitiveValues<long?>("custom_tag_ids", CustomTagIds);
+            writer.WriteStringValue("end_time", EndTime);
             writer.WriteCollectionOfEnumValues<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.ToolsEbpMaterialListV30FilteringEvaluateTypes>("evaluate_types", EvaluateTypes);
             writer.WriteCollectionOfEnumValues<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.ToolsEbpMaterialListV30FilteringImageModes>("image_modes", ImageModes);
             writer.WriteCollectionOfPrimitiveValues<long?>("material_ids", MaterialIds);
             writer.WriteStringValue("material_name", MaterialName);
+            writer.WriteStringValue("start_time", StartTime);
             writer.WriteCollectionOfPrimitiveValues<long?>("system_tag_ids", SystemTagIds);
             writer.WriteAdditionalData(AdditionalData);
         }

@@ -34,7 +34,7 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Report.Product_dail
         /// <summary>
         /// 当前模型的反序列化字段映射。
         /// </summary>
-        /// <returns>IDictionary&lt;string, Action&lt;IParseNode&gt;&gt;</returns>
+        /// <returns>返回 IDictionary&lt;string, Action&lt;IParseNode&gt;&gt;</returns>
         public virtual IDictionary<string, Action<IParseNode>> GetFieldDeserializers()
         {
             return new Dictionary<string, Action<IParseNode>>

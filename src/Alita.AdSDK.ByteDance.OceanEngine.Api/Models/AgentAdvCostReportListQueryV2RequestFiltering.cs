@@ -34,6 +34,8 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
 #endif
         /// <summary>The app_name property</summary>
         public long? AppName { get; set; }
+        /// <summary>排期 ID</summary>
+        public long? CartId { get; set; }
         /// <summary>广告主所属公司Id列表，支持多选查询。</summary>
 #if NETSTANDARD2_1_OR_GREATER || NETCOREAPP3_1_OR_GREATER
 #nullable enable
@@ -61,6 +63,22 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
 #nullable restore
 #else
         public string FirstIndustry { get; set; }
+#endif
+        /// <summary>招商意向编号</summary>
+#if NETSTANDARD2_1_OR_GREATER || NETCOREAPP3_1_OR_GREATER
+#nullable enable
+        public string? IntentionNo { get; set; }
+#nullable restore
+#else
+        public string IntentionNo { get; set; }
+#endif
+        /// <summary>招商项目编号</summary>
+#if NETSTANDARD2_1_OR_GREATER || NETCOREAPP3_1_OR_GREATER
+#nullable enable
+        public string? MerchNo { get; set; }
+#nullable restore
+#else
+        public string MerchNo { get; set; }
 #endif
         /// <summary>The pricing_category property</summary>
         public long? PricingCategory { get; set; }
@@ -128,7 +146,7 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         /// <summary>
         /// 当前模型的反序列化字段映射。
         /// </summary>
-        /// <returns>IDictionary&lt;string, Action&lt;IParseNode&gt;&gt;</returns>
+        /// <returns>返回 IDictionary&lt;string, Action&lt;IParseNode&gt;&gt;</returns>
         public virtual IDictionary<string, Action<IParseNode>> GetFieldDeserializers()
         {
             return new Dictionary<string, Action<IParseNode>>
@@ -137,11 +155,14 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
                 { "agent_customer_id", n => { AgentCustomerId = n.GetLongValue(); } },
                 { "agent_customer_ids", n => { AgentCustomerIds = n.GetCollectionOfPrimitiveValues<long?>()?.AsList(); } },
                 { "app_name", n => { AppName = n.GetLongValue(); } },
+                { "cart_id", n => { CartId = n.GetLongValue(); } },
                 { "company_ids", n => { CompanyIds = n.GetCollectionOfPrimitiveValues<long?>()?.AsList(); } },
                 { "company_name", n => { CompanyName = n.GetStringValue(); } },
                 { "cost_source", n => { CostSource = n.GetLongValue(); } },
                 { "ecommerce_type", n => { EcommerceType = n.GetLongValue(); } },
                 { "first_industry", n => { FirstIndustry = n.GetStringValue(); } },
+                { "intention_no", n => { IntentionNo = n.GetStringValue(); } },
+                { "merch_no", n => { MerchNo = n.GetStringValue(); } },
                 { "pricing_category", n => { PricingCategory = n.GetLongValue(); } },
                 { "project_name", n => { ProjectName = n.GetStringValue(); } },
                 { "project_serial", n => { ProjectSerial = n.GetStringValue(); } },
@@ -163,11 +184,14 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
             writer.WriteLongValue("agent_customer_id", AgentCustomerId);
             writer.WriteCollectionOfPrimitiveValues<long?>("agent_customer_ids", AgentCustomerIds);
             writer.WriteLongValue("app_name", AppName);
+            writer.WriteLongValue("cart_id", CartId);
             writer.WriteCollectionOfPrimitiveValues<long?>("company_ids", CompanyIds);
             writer.WriteStringValue("company_name", CompanyName);
             writer.WriteLongValue("cost_source", CostSource);
             writer.WriteLongValue("ecommerce_type", EcommerceType);
             writer.WriteStringValue("first_industry", FirstIndustry);
+            writer.WriteStringValue("intention_no", IntentionNo);
+            writer.WriteStringValue("merch_no", MerchNo);
             writer.WriteLongValue("pricing_category", PricingCategory);
             writer.WriteStringValue("project_name", ProjectName);
             writer.WriteStringValue("project_serial", ProjectSerial);

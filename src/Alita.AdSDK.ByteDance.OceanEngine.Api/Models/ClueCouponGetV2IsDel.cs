@@ -7,13 +7,13 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ClueCouponGetV2IsDel
     {
-        [EnumMember(Value = "1")]
-        #pragma warning disable CS1591
-        One,
-        #pragma warning restore CS1591
         [EnumMember(Value = "0")]
         #pragma warning disable CS1591
         Zero,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "1")]
+        #pragma warning disable CS1591
+        One,
         #pragma warning restore CS1591
     }
 }

@@ -7,13 +7,13 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum AdGetV2DataScheduleType
     {
-        [EnumMember(Value = "SCHEDULE_START_END")]
-        #pragma warning disable CS1591
-        SCHEDULE_START_END,
-        #pragma warning restore CS1591
         [EnumMember(Value = "SCHEDULE_FROM_NOW")]
         #pragma warning disable CS1591
         SCHEDULE_FROM_NOW,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "SCHEDULE_START_END")]
+        #pragma warning disable CS1591
+        SCHEDULE_START_END,
         #pragma warning restore CS1591
     }
 }

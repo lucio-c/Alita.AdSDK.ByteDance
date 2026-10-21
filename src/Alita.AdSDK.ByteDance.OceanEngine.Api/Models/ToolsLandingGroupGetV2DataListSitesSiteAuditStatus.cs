@@ -11,14 +11,6 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         UNKNOWN,
         #pragma warning restore CS1591
-        [EnumMember(Value = "REJECTED")]
-        #pragma warning disable CS1591
-        REJECTED,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "CREATED")]
-        #pragma warning disable CS1591
-        CREATED,
-        #pragma warning restore CS1591
         [EnumMember(Value = "AUDITING")]
         #pragma warning disable CS1591
         AUDITING,
@@ -26,6 +18,14 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         [EnumMember(Value = "ACCEPTED")]
         #pragma warning disable CS1591
         ACCEPTED,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "CREATED")]
+        #pragma warning disable CS1591
+        CREATED,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "REJECTED")]
+        #pragma warning disable CS1591
+        REJECTED,
         #pragma warning restore CS1591
         [EnumMember(Value = "BANNED")]
         #pragma warning disable CS1591

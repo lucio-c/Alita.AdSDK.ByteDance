@@ -7,33 +7,33 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ClueCouponUpdateV2Status
     {
+        [EnumMember(Value = "PAUSE")]
+        #pragma warning disable CS1591
+        PAUSE,
+        #pragma warning restore CS1591
         [EnumMember(Value = "UNAUDITED")]
         #pragma warning disable CS1591
         UNAUDITED,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "NORMAL")]
-        #pragma warning disable CS1591
-        NORMAL,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "DELETED")]
-        #pragma warning disable CS1591
-        DELETED,
         #pragma warning restore CS1591
         [EnumMember(Value = "AUDIT_DOING")]
         #pragma warning disable CS1591
         AUDIT_DOING,
         #pragma warning restore CS1591
-        [EnumMember(Value = "AUDIT_FAIL")]
+        [EnumMember(Value = "NORMAL")]
         #pragma warning disable CS1591
-        AUDIT_FAIL,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "PAUSE")]
-        #pragma warning disable CS1591
-        PAUSE,
+        NORMAL,
         #pragma warning restore CS1591
         [EnumMember(Value = "OFFLINE")]
         #pragma warning disable CS1591
         OFFLINE,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "DELETED")]
+        #pragma warning disable CS1591
+        DELETED,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "AUDIT_FAIL")]
+        #pragma warning disable CS1591
+        AUDIT_FAIL,
         #pragma warning restore CS1591
     }
 }

@@ -7,17 +7,17 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ReportAudienceCityV2IdType
     {
-        [EnumMember(Value = "AUDIENCE_STAT_ID_TYPE_AD")]
+        [EnumMember(Value = "AUDIENCE_STAT_ID_TYPE_CAMPAIGN")]
         #pragma warning disable CS1591
-        AUDIENCE_STAT_ID_TYPE_AD,
+        AUDIENCE_STAT_ID_TYPE_CAMPAIGN,
         #pragma warning restore CS1591
         [EnumMember(Value = "AUDIENCE_STAT_ID_TYPE_ADVERTISER")]
         #pragma warning disable CS1591
         AUDIENCE_STAT_ID_TYPE_ADVERTISER,
         #pragma warning restore CS1591
-        [EnumMember(Value = "AUDIENCE_STAT_ID_TYPE_CAMPAIGN")]
+        [EnumMember(Value = "AUDIENCE_STAT_ID_TYPE_AD")]
         #pragma warning disable CS1591
-        AUDIENCE_STAT_ID_TYPE_CAMPAIGN,
+        AUDIENCE_STAT_ID_TYPE_AD,
         #pragma warning restore CS1591
     }
 }

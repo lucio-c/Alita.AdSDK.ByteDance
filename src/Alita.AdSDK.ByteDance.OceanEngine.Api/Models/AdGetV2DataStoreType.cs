@@ -7,21 +7,21 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum AdGetV2DataStoreType
     {
-        [EnumMember(Value = "STORE_LANDING")]
-        #pragma warning disable CS1591
-        STORE_LANDING,
-        #pragma warning restore CS1591
         [EnumMember(Value = "STORE_NORMAL")]
         #pragma warning disable CS1591
         STORE_NORMAL,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "STORE_DOUYIN")]
+        #pragma warning disable CS1591
+        STORE_DOUYIN,
         #pragma warning restore CS1591
         [EnumMember(Value = "STORE_THIRT_PARTY")]
         #pragma warning disable CS1591
         STORE_THIRT_PARTY,
         #pragma warning restore CS1591
-        [EnumMember(Value = "STORE_DOUYIN")]
+        [EnumMember(Value = "STORE_LANDING")]
         #pragma warning disable CS1591
-        STORE_DOUYIN,
+        STORE_LANDING,
         #pragma warning restore CS1591
     }
 }

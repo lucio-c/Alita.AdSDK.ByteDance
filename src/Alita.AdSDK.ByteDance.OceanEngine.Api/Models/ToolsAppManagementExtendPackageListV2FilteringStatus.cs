@@ -7,17 +7,21 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ToolsAppManagementExtendPackageListV2FilteringStatus
     {
-        [EnumMember(Value = "PUBLISHED")]
-        #pragma warning disable CS1591
-        PUBLISHED,
-        #pragma warning restore CS1591
         [EnumMember(Value = "UPDATING")]
         #pragma warning disable CS1591
         UPDATING,
         #pragma warning restore CS1591
-        [EnumMember(Value = "NOT_UPDATE")]
+        [EnumMember(Value = "ALL")]
         #pragma warning disable CS1591
-        NOT_UPDATE,
+        ALL,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "CREATION_FAILED")]
+        #pragma warning disable CS1591
+        CREATION_FAILED,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "PUBLISHED")]
+        #pragma warning disable CS1591
+        PUBLISHED,
         #pragma warning restore CS1591
         [EnumMember(Value = "CREATING")]
         #pragma warning disable CS1591
@@ -27,13 +31,9 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         UPDATE_FAILED,
         #pragma warning restore CS1591
-        [EnumMember(Value = "ALL")]
+        [EnumMember(Value = "NOT_UPDATE")]
         #pragma warning disable CS1591
-        ALL,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "CREATION_FAILED")]
-        #pragma warning disable CS1591
-        CREATION_FAILED,
+        NOT_UPDATE,
         #pragma warning restore CS1591
     }
 }

@@ -11,13 +11,13 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         APP,
         #pragma warning restore CS1591
-        [EnumMember(Value = "AD")]
-        #pragma warning disable CS1591
-        AD,
-        #pragma warning restore CS1591
         [EnumMember(Value = "SEARCH")]
         #pragma warning disable CS1591
         SEARCH,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "AD")]
+        #pragma warning disable CS1591
+        AD,
         #pragma warning restore CS1591
         [EnumMember(Value = "E-COMMERCE")]
         #pragma warning disable CS1591

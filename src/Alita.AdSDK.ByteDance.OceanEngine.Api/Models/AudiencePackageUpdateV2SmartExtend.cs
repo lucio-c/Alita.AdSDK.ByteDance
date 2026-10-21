@@ -7,6 +7,10 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum AudiencePackageUpdateV2SmartExtend
     {
+        [EnumMember(Value = "OFF")]
+        #pragma warning disable CS1591
+        OFF,
+        #pragma warning restore CS1591
         [EnumMember(Value = "NONE")]
         #pragma warning disable CS1591
         NONE,
@@ -14,10 +18,6 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         [EnumMember(Value = "ON")]
         #pragma warning disable CS1591
         ON,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "OFF")]
-        #pragma warning disable CS1591
-        OFF,
         #pragma warning restore CS1591
     }
 }

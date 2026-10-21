@@ -4,6 +4,13 @@ import path from "node:path";
 const sdkRoot = process.argv[2];
 const outputPath = process.argv[3];
 
+function readSdkVersion() {
+  const clientPath = path.join(sdkRoot, "client.go");
+  if (!fs.existsSync(clientPath)) return "1.0.0";
+  const match = /API version:\s*([0-9][0-9A-Za-z.+-]*)/.exec(fs.readFileSync(clientPath, "utf8"));
+  return match ? match[1] : "1.0.0";
+}
+
 if (!sdkRoot || !outputPath) {
   console.error("用法: node tools/build-openapi.mjs <ad_open_sdk_go 目录> <输出 json>");
   process.exit(1);
@@ -560,7 +567,7 @@ const document = {
   openapi: "3.0.3",
   info: {
     title: "巨量引擎 Marketing API",
-    version: "1.0.0",
+    version: readSdkVersion(),
     description: "由官方 Go SDK 生成代码转换而来，再用 Kiota 生成 C# 客户端。对象和数组类型的查询参数是 JSON 字符串。",
   },
   servers: [{ url: "https://api.oceanengine.com" }],

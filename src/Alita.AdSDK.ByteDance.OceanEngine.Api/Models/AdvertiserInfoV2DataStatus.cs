@@ -7,53 +7,53 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum AdvertiserInfoV2DataStatus
     {
-        [EnumMember(Value = "STATUS_PENDING_CONFIRM_MODIFY")]
+        [EnumMember(Value = "STATUS_WAIT_FOR_BPM_AUDIT")]
         #pragma warning disable CS1591
-        STATUS_PENDING_CONFIRM_MODIFY,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "STATUS_CONFIRM_FAIL_END")]
-        #pragma warning disable CS1591
-        STATUS_CONFIRM_FAIL_END,
+        STATUS_WAIT_FOR_BPM_AUDIT,
         #pragma warning restore CS1591
         [EnumMember(Value = "STATUS_SELF_SERVICE_UNAUDITED")]
         #pragma warning disable CS1591
         STATUS_SELF_SERVICE_UNAUDITED,
         #pragma warning restore CS1591
-        [EnumMember(Value = "STATUS_CONFIRM_FAIL")]
+        [EnumMember(Value = "STATUS_PENDING_CONFIRM_MODIFY")]
         #pragma warning disable CS1591
-        STATUS_CONFIRM_FAIL,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "STATUS_LIMIT")]
-        #pragma warning disable CS1591
-        STATUS_LIMIT,
+        STATUS_PENDING_CONFIRM_MODIFY,
         #pragma warning restore CS1591
         [EnumMember(Value = "STATUS_WAIT_FOR_PUBLIC_AUTH")]
         #pragma warning disable CS1591
         STATUS_WAIT_FOR_PUBLIC_AUTH,
         #pragma warning restore CS1591
-        [EnumMember(Value = "STATUS_ENABLE")]
+        [EnumMember(Value = "STATUS_CONFIRM_MODIFY_FAIL")]
         #pragma warning disable CS1591
-        STATUS_ENABLE,
+        STATUS_CONFIRM_MODIFY_FAIL,
         #pragma warning restore CS1591
         [EnumMember(Value = "STATUS_DISABLE")]
         #pragma warning disable CS1591
         STATUS_DISABLE,
         #pragma warning restore CS1591
+        [EnumMember(Value = "STATUS_CONFIRM_FAIL_END")]
+        #pragma warning disable CS1591
+        STATUS_CONFIRM_FAIL_END,
+        #pragma warning restore CS1591
         [EnumMember(Value = "STATUS_PENDING_CONFIRM")]
         #pragma warning disable CS1591
         STATUS_PENDING_CONFIRM,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "STATUS_WAIT_FOR_BPM_AUDIT")]
-        #pragma warning disable CS1591
-        STATUS_WAIT_FOR_BPM_AUDIT,
         #pragma warning restore CS1591
         [EnumMember(Value = "STATUS_PENDING_VERIFIED")]
         #pragma warning disable CS1591
         STATUS_PENDING_VERIFIED,
         #pragma warning restore CS1591
-        [EnumMember(Value = "STATUS_CONFIRM_MODIFY_FAIL")]
+        [EnumMember(Value = "STATUS_LIMIT")]
         #pragma warning disable CS1591
-        STATUS_CONFIRM_MODIFY_FAIL,
+        STATUS_LIMIT,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "STATUS_ENABLE")]
+        #pragma warning disable CS1591
+        STATUS_ENABLE,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "STATUS_CONFIRM_FAIL")]
+        #pragma warning disable CS1591
+        STATUS_CONFIRM_FAIL,
         #pragma warning restore CS1591
     }
 }

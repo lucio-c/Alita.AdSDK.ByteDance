@@ -7,17 +7,17 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum CreativeCustomCreativeUpdateV2CreativeListVideoMaterialDpaVideoTemplateType
     {
-        [EnumMember(Value = "DPA_VIDEO_TEMPLATE_SMART")]
+        [EnumMember(Value = "DPA_VIDEO_TEMPLATE_DEPRECATED")]
         #pragma warning disable CS1591
-        DPA_VIDEO_TEMPLATE_SMART,
+        DPA_VIDEO_TEMPLATE_DEPRECATED,
         #pragma warning restore CS1591
         [EnumMember(Value = "DPA_VIDEO_TEMPLATE_CUSTOM")]
         #pragma warning disable CS1591
         DPA_VIDEO_TEMPLATE_CUSTOM,
         #pragma warning restore CS1591
-        [EnumMember(Value = "DPA_VIDEO_TEMPLATE_DEPRECATED")]
+        [EnumMember(Value = "DPA_VIDEO_TEMPLATE_SMART")]
         #pragma warning disable CS1591
-        DPA_VIDEO_TEMPLATE_DEPRECATED,
+        DPA_VIDEO_TEMPLATE_SMART,
         #pragma warning restore CS1591
     }
 }

@@ -7,21 +7,21 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ToolsBidSuggestV2LocationType
     {
-        [EnumMember(Value = "HOME")]
+        [EnumMember(Value = "CURRENT")]
         #pragma warning disable CS1591
-        HOME,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "ALL")]
-        #pragma warning disable CS1591
-        ALL,
+        CURRENT,
         #pragma warning restore CS1591
         [EnumMember(Value = "TRAVEL")]
         #pragma warning disable CS1591
         TRAVEL,
         #pragma warning restore CS1591
-        [EnumMember(Value = "CURRENT")]
+        [EnumMember(Value = "ALL")]
         #pragma warning disable CS1591
-        CURRENT,
+        ALL,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "HOME")]
+        #pragma warning disable CS1591
+        HOME,
         #pragma warning restore CS1591
     }
 }

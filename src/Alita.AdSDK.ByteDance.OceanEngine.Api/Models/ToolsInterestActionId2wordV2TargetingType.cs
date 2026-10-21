@@ -7,13 +7,13 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ToolsInterestActionId2wordV2TargetingType
     {
-        [EnumMember(Value = "INTEREST")]
-        #pragma warning disable CS1591
-        INTEREST,
-        #pragma warning restore CS1591
         [EnumMember(Value = "ACTION")]
         #pragma warning disable CS1591
         ACTION,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "INTEREST")]
+        #pragma warning disable CS1591
+        INTEREST,
         #pragma warning restore CS1591
     }
 }

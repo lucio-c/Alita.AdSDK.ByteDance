@@ -7,17 +7,17 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum AdGetV2DataInheritType
     {
-        [EnumMember(Value = "INHERIT_BY_SYSTEM")]
+        [EnumMember(Value = "INHERIT_FROM_CUSTOMER")]
         #pragma warning disable CS1591
-        INHERIT_BY_SYSTEM,
+        INHERIT_FROM_CUSTOMER,
         #pragma warning restore CS1591
         [EnumMember(Value = "INHERIT_FROM_ACCOUNT")]
         #pragma warning disable CS1591
         INHERIT_FROM_ACCOUNT,
         #pragma warning restore CS1591
-        [EnumMember(Value = "INHERIT_FROM_CUSTOMER")]
+        [EnumMember(Value = "INHERIT_BY_SYSTEM")]
         #pragma warning disable CS1591
-        INHERIT_FROM_CUSTOMER,
+        INHERIT_BY_SYSTEM,
         #pragma warning restore CS1591
     }
 }

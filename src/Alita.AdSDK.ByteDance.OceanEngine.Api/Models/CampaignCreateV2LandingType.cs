@@ -7,49 +7,49 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum CampaignCreateV2LandingType
     {
-        [EnumMember(Value = "SHOP")]
+        [EnumMember(Value = "LIVE")]
         #pragma warning disable CS1591
-        SHOP,
+        LIVE,
         #pragma warning restore CS1591
         [EnumMember(Value = "APP")]
         #pragma warning disable CS1591
         APP,
         #pragma warning restore CS1591
-        [EnumMember(Value = "AWEME")]
+        [EnumMember(Value = "ARTICLE")]
         #pragma warning disable CS1591
-        AWEME,
+        ARTICLE,
         #pragma warning restore CS1591
-        [EnumMember(Value = "DPA")]
+        [EnumMember(Value = "SHOP")]
         #pragma warning disable CS1591
-        DPA,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "LINK")]
-        #pragma warning disable CS1591
-        LINK,
+        SHOP,
         #pragma warning restore CS1591
         [EnumMember(Value = "QUICK_APP")]
         #pragma warning disable CS1591
         QUICK_APP,
         #pragma warning restore CS1591
-        [EnumMember(Value = "LIVE")]
+        [EnumMember(Value = "BRAND_EXTERNAL")]
         #pragma warning disable CS1591
-        LIVE,
+        BRAND_EXTERNAL,
         #pragma warning restore CS1591
-        [EnumMember(Value = "ARTICLE")]
+        [EnumMember(Value = "LINK")]
         #pragma warning disable CS1591
-        ARTICLE,
+        LINK,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "DPA")]
+        #pragma warning disable CS1591
+        DPA,
         #pragma warning restore CS1591
         [EnumMember(Value = "STORE")]
         #pragma warning disable CS1591
         STORE,
         #pragma warning restore CS1591
+        [EnumMember(Value = "AWEME")]
+        #pragma warning disable CS1591
+        AWEME,
+        #pragma warning restore CS1591
         [EnumMember(Value = "GOODS")]
         #pragma warning disable CS1591
         GOODS,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "BRAND_EXTERNAL")]
-        #pragma warning disable CS1591
-        BRAND_EXTERNAL,
         #pragma warning restore CS1591
     }
 }

@@ -11,17 +11,17 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         MERCHANT,
         #pragma warning restore CS1591
-        [EnumMember(Value = "PLATFORM")]
+        [EnumMember(Value = "COMMON")]
         #pragma warning disable CS1591
-        PLATFORM,
+        COMMON,
         #pragma warning restore CS1591
         [EnumMember(Value = "API")]
         #pragma warning disable CS1591
         API,
         #pragma warning restore CS1591
-        [EnumMember(Value = "COMMON")]
+        [EnumMember(Value = "PLATFORM")]
         #pragma warning disable CS1591
-        COMMON,
+        PLATFORM,
         #pragma warning restore CS1591
     }
 }

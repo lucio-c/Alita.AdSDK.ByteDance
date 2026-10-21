@@ -7,13 +7,13 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ToolsPromotionCardRecommendGetV2DownloadType
     {
-        [EnumMember(Value = "EXTERNAL_URL")]
-        #pragma warning disable CS1591
-        EXTERNAL_URL,
-        #pragma warning restore CS1591
         [EnumMember(Value = "QUICK_APP_URL")]
         #pragma warning disable CS1591
         QUICK_APP_URL,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "EXTERNAL_URL")]
+        #pragma warning disable CS1591
+        EXTERNAL_URL,
         #pragma warning restore CS1591
         [EnumMember(Value = "DOWNLOAD_URL")]
         #pragma warning disable CS1591

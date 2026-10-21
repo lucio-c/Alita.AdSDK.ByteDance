@@ -53,6 +53,12 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
 #else
         public string EndTime { get; set; }
 #endif
+        /// <summary>The going_global_budget property</summary>
+        public double? GoingGlobalBudget { get; set; }
+        /// <summary>The going_global_roi_goal property</summary>
+        public double? GoingGlobalRoiGoal { get; set; }
+        /// <summary>The going_global_switch property</summary>
+        public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.UniProjectUpdateV30GoingGlobalSwitch? GoingGlobalSwitch { get; set; }
         /// <summary>The monetization_mode property</summary>
         public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.UniProjectUpdateV30MonetizationMode? MonetizationMode { get; set; }
         /// <summary>The name property</summary>
@@ -129,7 +135,7 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         /// <summary>
         /// 当前模型的反序列化字段映射。
         /// </summary>
-        /// <returns>IDictionary&lt;string, Action&lt;IParseNode&gt;&gt;</returns>
+        /// <returns>返回 IDictionary&lt;string, Action&lt;IParseNode&gt;&gt;</returns>
         public virtual IDictionary<string, Action<IParseNode>> GetFieldDeserializers()
         {
             return new Dictionary<string, Action<IParseNode>>
@@ -141,6 +147,9 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
                 { "budget", n => { Budget = n.GetDoubleValue(); } },
                 { "call_to_action_buttons", n => { CallToActionButtons = n.GetCollectionOfPrimitiveValues<string>()?.AsList(); } },
                 { "end_time", n => { EndTime = n.GetStringValue(); } },
+                { "going_global_budget", n => { GoingGlobalBudget = n.GetDoubleValue(); } },
+                { "going_global_roi_goal", n => { GoingGlobalRoiGoal = n.GetDoubleValue(); } },
+                { "going_global_switch", n => { GoingGlobalSwitch = n.GetEnumValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.UniProjectUpdateV30GoingGlobalSwitch>(); } },
                 { "monetization_mode", n => { MonetizationMode = n.GetEnumValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.UniProjectUpdateV30MonetizationMode>(); } },
                 { "name", n => { Name = n.GetStringValue(); } },
                 { "playlet_series_url_info", n => { PlayletSeriesUrlInfo = n.GetCollectionOfObjectValues<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.UniProjectUpdateV30RequestPlayletSeriesUrlInfoInner>(global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.UniProjectUpdateV30RequestPlayletSeriesUrlInfoInner.CreateFromDiscriminatorValue)?.AsList(); } },
@@ -167,6 +176,9 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
             writer.WriteDoubleValue("budget", Budget);
             writer.WriteCollectionOfPrimitiveValues<string>("call_to_action_buttons", CallToActionButtons);
             writer.WriteStringValue("end_time", EndTime);
+            writer.WriteDoubleValue("going_global_budget", GoingGlobalBudget);
+            writer.WriteDoubleValue("going_global_roi_goal", GoingGlobalRoiGoal);
+            writer.WriteEnumValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.UniProjectUpdateV30GoingGlobalSwitch>("going_global_switch", GoingGlobalSwitch);
             writer.WriteEnumValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.UniProjectUpdateV30MonetizationMode>("monetization_mode", MonetizationMode);
             writer.WriteStringValue("name", Name);
             writer.WriteCollectionOfObjectValues<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.UniProjectUpdateV30RequestPlayletSeriesUrlInfoInner>("playlet_series_url_info", PlayletSeriesUrlInfo);

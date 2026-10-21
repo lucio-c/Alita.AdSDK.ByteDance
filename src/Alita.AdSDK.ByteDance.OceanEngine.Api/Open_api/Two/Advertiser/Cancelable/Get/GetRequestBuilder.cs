@@ -22,7 +22,7 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.Two.Advertiser.Cancelab
         /// </summary>
         /// <param name="pathParameters">路径参数。</param>
         /// <param name="requestAdapter">发送请求的适配器。</param>
-        public GetRequestBuilder(Dictionary<string, object> pathParameters, IRequestAdapter requestAdapter) : base(requestAdapter, "{+baseurl}/open_api/2/advertiser/cancelable/get?advertiser_ids={advertiser_ids}&user_id={user_id}", pathParameters)
+        public GetRequestBuilder(Dictionary<string, object> pathParameters, IRequestAdapter requestAdapter) : base(requestAdapter, "{+baseurl}/open_api/2/advertiser/cancelable/get?advertiser_ids={advertiser_ids}{&user_id*}", pathParameters)
         {
         }
         /// <summary>
@@ -30,7 +30,7 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.Two.Advertiser.Cancelab
         /// </summary>
         /// <param name="rawUrl">原始 URL。使用后会忽略其它路径和查询参数。</param>
         /// <param name="requestAdapter">发送请求的适配器。</param>
-        public GetRequestBuilder(string rawUrl, IRequestAdapter requestAdapter) : base(requestAdapter, "{+baseurl}/open_api/2/advertiser/cancelable/get?advertiser_ids={advertiser_ids}&user_id={user_id}", rawUrl)
+        public GetRequestBuilder(string rawUrl, IRequestAdapter requestAdapter) : base(requestAdapter, "{+baseurl}/open_api/2/advertiser/cancelable/get?advertiser_ids={advertiser_ids}{&user_id*}", rawUrl)
         {
         }
         /// <summary>

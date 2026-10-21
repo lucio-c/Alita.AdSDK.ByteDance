@@ -7,73 +7,73 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ReportAdvertiserGetV2DataListImageMode
     {
-        [EnumMember(Value = "CREATIVE_IMAGE_MODE_VIDEO")]
-        #pragma warning disable CS1591
-        CREATIVE_IMAGE_MODE_VIDEO,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "CREATIVE_IMAGE_MODE_DECORATION_COUPON")]
-        #pragma warning disable CS1591
-        CREATIVE_IMAGE_MODE_DECORATION_COUPON,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "CREATIVE_IMAGE_MODE_PLAYABLE_VERTICAL")]
-        #pragma warning disable CS1591
-        CREATIVE_IMAGE_MODE_PLAYABLE_VERTICAL,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "TOUTIAO_SEARCH_AD_IMAGE")]
-        #pragma warning disable CS1591
-        TOUTIAO_SEARCH_AD_IMAGE,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "CREATIVE_IMAGE_MODE_UNION_SPLASH")]
-        #pragma warning disable CS1591
-        CREATIVE_IMAGE_MODE_UNION_SPLASH,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "CREATIVE_IMAGE_MODE_UNION_SPLASH_VIDEO")]
-        #pragma warning disable CS1591
-        CREATIVE_IMAGE_MODE_UNION_SPLASH_VIDEO,
-        #pragma warning restore CS1591
         [EnumMember(Value = "CREATIVE_IMAGE_MODE_DISPLAY_WINDOW")]
         #pragma warning disable CS1591
         CREATIVE_IMAGE_MODE_DISPLAY_WINDOW,
         #pragma warning restore CS1591
-        [EnumMember(Value = "CREATIVE_IMAGE_MODE_SMALL")]
+        [EnumMember(Value = "CREATIVE_IMAGE_MODE_LARGE")]
         #pragma warning disable CS1591
-        CREATIVE_IMAGE_MODE_SMALL,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "CREATIVE_IMAGE_MODE_LARGE_VERTICAL")]
-        #pragma warning disable CS1591
-        CREATIVE_IMAGE_MODE_LARGE_VERTICAL,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "CREATIVE_IMAGE_MODE_VIDEO_VERTICAL")]
-        #pragma warning disable CS1591
-        CREATIVE_IMAGE_MODE_VIDEO_VERTICAL,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "MATERIAL_IMAGE_MODE_TITLE")]
-        #pragma warning disable CS1591
-        MATERIAL_IMAGE_MODE_TITLE,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "CREATIVE_IMAGE_MODE_GIF")]
-        #pragma warning disable CS1591
-        CREATIVE_IMAGE_MODE_GIF,
+        CREATIVE_IMAGE_MODE_LARGE,
         #pragma warning restore CS1591
         [EnumMember(Value = "CREATIVE_IMAGE_MODE_AWEME_LIVE")]
         #pragma warning disable CS1591
         CREATIVE_IMAGE_MODE_AWEME_LIVE,
         #pragma warning restore CS1591
-        [EnumMember(Value = "CREATIVE_IMAGE_MODE_PLAYABLE_HORIZONTAL")]
+        [EnumMember(Value = "CREATIVE_IMAGE_MODE_VIDEO")]
         #pragma warning disable CS1591
-        CREATIVE_IMAGE_MODE_PLAYABLE_HORIZONTAL,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "CREATIVE_IMAGE_MODE_GROUP")]
-        #pragma warning disable CS1591
-        CREATIVE_IMAGE_MODE_GROUP,
+        CREATIVE_IMAGE_MODE_VIDEO,
         #pragma warning restore CS1591
         [EnumMember(Value = "SEARCH_AD_SMALL_IMAGE")]
         #pragma warning disable CS1591
         SEARCH_AD_SMALL_IMAGE,
         #pragma warning restore CS1591
-        [EnumMember(Value = "CREATIVE_IMAGE_MODE_LARGE")]
+        [EnumMember(Value = "CREATIVE_IMAGE_MODE_PLAYABLE_HORIZONTAL")]
         #pragma warning disable CS1591
-        CREATIVE_IMAGE_MODE_LARGE,
+        CREATIVE_IMAGE_MODE_PLAYABLE_HORIZONTAL,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "MATERIAL_IMAGE_MODE_TITLE")]
+        #pragma warning disable CS1591
+        MATERIAL_IMAGE_MODE_TITLE,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "CREATIVE_IMAGE_MODE_UNION_SPLASH")]
+        #pragma warning disable CS1591
+        CREATIVE_IMAGE_MODE_UNION_SPLASH,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "CREATIVE_IMAGE_MODE_GROUP")]
+        #pragma warning disable CS1591
+        CREATIVE_IMAGE_MODE_GROUP,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "CREATIVE_IMAGE_MODE_GIF")]
+        #pragma warning disable CS1591
+        CREATIVE_IMAGE_MODE_GIF,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "CREATIVE_IMAGE_MODE_VIDEO_VERTICAL")]
+        #pragma warning disable CS1591
+        CREATIVE_IMAGE_MODE_VIDEO_VERTICAL,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "TOUTIAO_SEARCH_AD_IMAGE")]
+        #pragma warning disable CS1591
+        TOUTIAO_SEARCH_AD_IMAGE,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "CREATIVE_IMAGE_MODE_UNION_SPLASH_VIDEO")]
+        #pragma warning disable CS1591
+        CREATIVE_IMAGE_MODE_UNION_SPLASH_VIDEO,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "CREATIVE_IMAGE_MODE_PLAYABLE_VERTICAL")]
+        #pragma warning disable CS1591
+        CREATIVE_IMAGE_MODE_PLAYABLE_VERTICAL,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "CREATIVE_IMAGE_MODE_SMALL")]
+        #pragma warning disable CS1591
+        CREATIVE_IMAGE_MODE_SMALL,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "CREATIVE_IMAGE_MODE_DECORATION_COUPON")]
+        #pragma warning disable CS1591
+        CREATIVE_IMAGE_MODE_DECORATION_COUPON,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "CREATIVE_IMAGE_MODE_LARGE_VERTICAL")]
+        #pragma warning disable CS1591
+        CREATIVE_IMAGE_MODE_LARGE_VERTICAL,
         #pragma warning restore CS1591
     }
 }

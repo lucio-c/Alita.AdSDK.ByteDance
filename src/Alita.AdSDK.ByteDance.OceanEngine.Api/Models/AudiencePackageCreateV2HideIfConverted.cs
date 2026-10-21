@@ -11,33 +11,33 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         APP,
         #pragma warning restore CS1591
-        [EnumMember(Value = "ORGANIZATION")]
+        [EnumMember(Value = "ADVERTISER")]
         #pragma warning disable CS1591
-        ORGANIZATION,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "GLOBAL_APP")]
-        #pragma warning disable CS1591
-        GLOBAL_APP,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "AD")]
-        #pragma warning disable CS1591
-        AD,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "NO_EXCLUDE")]
-        #pragma warning disable CS1591
-        NO_EXCLUDE,
+        ADVERTISER,
         #pragma warning restore CS1591
         [EnumMember(Value = "CAMPAIGN")]
         #pragma warning disable CS1591
         CAMPAIGN,
         #pragma warning restore CS1591
-        [EnumMember(Value = "ADVERTISER")]
+        [EnumMember(Value = "ORGANIZATION")]
         #pragma warning disable CS1591
-        ADVERTISER,
+        ORGANIZATION,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "NO_EXCLUDE")]
+        #pragma warning disable CS1591
+        NO_EXCLUDE,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "AD")]
+        #pragma warning disable CS1591
+        AD,
         #pragma warning restore CS1591
         [EnumMember(Value = "CUSTOMER")]
         #pragma warning disable CS1591
         CUSTOMER,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "GLOBAL_APP")]
+        #pragma warning disable CS1591
+        GLOBAL_APP,
         #pragma warning restore CS1591
     }
 }

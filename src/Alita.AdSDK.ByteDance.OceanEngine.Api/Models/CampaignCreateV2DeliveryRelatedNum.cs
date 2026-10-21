@@ -7,13 +7,13 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum CampaignCreateV2DeliveryRelatedNum
     {
-        [EnumMember(Value = "CAMPAIGN_DPA_SINGLE_DELIVERY")]
-        #pragma warning disable CS1591
-        CAMPAIGN_DPA_SINGLE_DELIVERY,
-        #pragma warning restore CS1591
         [EnumMember(Value = "CAMPAIGN_DPA_DEFAULT_NOT")]
         #pragma warning disable CS1591
         CAMPAIGN_DPA_DEFAULT_NOT,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "CAMPAIGN_DPA_SINGLE_DELIVERY")]
+        #pragma warning disable CS1591
+        CAMPAIGN_DPA_SINGLE_DELIVERY,
         #pragma warning restore CS1591
         [EnumMember(Value = "CAMPAIGN_DPA_MULTI_DELIVERY")]
         #pragma warning disable CS1591

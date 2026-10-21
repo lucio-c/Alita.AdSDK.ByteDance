@@ -7,21 +7,21 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum KeywordUpdateV2V2KeywordsBidType
     {
-        [EnumMember(Value = "WITH_AD")]
+        [EnumMember(Value = "CUSTOM")]
         #pragma warning disable CS1591
-        WITH_AD,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "BRAND_AD")]
-        #pragma warning disable CS1591
-        BRAND_AD,
+        CUSTOM,
         #pragma warning restore CS1591
         [EnumMember(Value = "SUGGEST")]
         #pragma warning disable CS1591
         SUGGEST,
         #pragma warning restore CS1591
-        [EnumMember(Value = "CUSTOM")]
+        [EnumMember(Value = "BRAND_AD")]
         #pragma warning disable CS1591
-        CUSTOM,
+        BRAND_AD,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "WITH_AD")]
+        #pragma warning disable CS1591
+        WITH_AD,
         #pragma warning restore CS1591
         [EnumMember(Value = "FEED_TO_SEARCH")]
         #pragma warning disable CS1591

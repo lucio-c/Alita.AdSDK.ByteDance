@@ -68,6 +68,8 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
 #else
         public string BusinessTypeName { get; set; }
 #endif
+        /// <summary>排期 ID</summary>
+        public long? CartId { get; set; }
         /// <summary>The cashback_type property</summary>
         public long? CashbackType { get; set; }
         /// <summary>资源包类型名称</summary>
@@ -156,8 +158,24 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
 #endif
         /// <summary>赠款消耗(单位：千分之一分)</summary>
         public long? GrantCost { get; set; }
+        /// <summary>招商意向编号</summary>
+#if NETSTANDARD2_1_OR_GREATER || NETCOREAPP3_1_OR_GREATER
+#nullable enable
+        public string? IntentionNo { get; set; }
+#nullable restore
+#else
+        public string IntentionNo { get; set; }
+#endif
         /// <summary>The is_matching_province property</summary>
         public long? IsMatchingProvince { get; set; }
+        /// <summary>招商项目编号</summary>
+#if NETSTANDARD2_1_OR_GREATER || NETCOREAPP3_1_OR_GREATER
+#nullable enable
+        public string? MerchNo { get; set; }
+#nullable restore
+#else
+        public string MerchNo { get; set; }
+#endif
         /// <summary>非赠款消耗(单位：千分之一分)</summary>
         public long? NoGrantCost { get; set; }
         /// <summary>预付消耗(单位：千分之一分)</summary>
@@ -310,7 +328,7 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         /// <summary>
         /// 当前模型的反序列化字段映射。
         /// </summary>
-        /// <returns>IDictionary&lt;string, Action&lt;IParseNode&gt;&gt;</returns>
+        /// <returns>返回 IDictionary&lt;string, Action&lt;IParseNode&gt;&gt;</returns>
         public virtual IDictionary<string, Action<IParseNode>> GetFieldDeserializers()
         {
             return new Dictionary<string, Action<IParseNode>>
@@ -327,6 +345,7 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
                 { "brand_product_second_type_name", n => { BrandProductSecondTypeName = n.GetStringValue(); } },
                 { "business_type", n => { BusinessType = n.GetLongValue(); } },
                 { "business_type_name", n => { BusinessTypeName = n.GetStringValue(); } },
+                { "cart_id", n => { CartId = n.GetLongValue(); } },
                 { "cashback_type", n => { CashbackType = n.GetLongValue(); } },
                 { "cashback_type_name", n => { CashbackTypeName = n.GetStringValue(); } },
                 { "company_id", n => { CompanyId = n.GetLongValue(); } },
@@ -347,7 +366,9 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
                 { "first_agent_name", n => { FirstAgentName = n.GetStringValue(); } },
                 { "first_industry", n => { FirstIndustry = n.GetStringValue(); } },
                 { "grant_cost", n => { GrantCost = n.GetLongValue(); } },
+                { "intention_no", n => { IntentionNo = n.GetStringValue(); } },
                 { "is_matching_province", n => { IsMatchingProvince = n.GetLongValue(); } },
+                { "merch_no", n => { MerchNo = n.GetStringValue(); } },
                 { "no_grant_cost", n => { NoGrantCost = n.GetLongValue(); } },
                 { "prepay_cost", n => { PrepayCost = n.GetLongValue(); } },
                 { "pricing_category", n => { PricingCategory = n.GetLongValue(); } },
@@ -396,6 +417,7 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
             writer.WriteStringValue("brand_product_second_type_name", BrandProductSecondTypeName);
             writer.WriteLongValue("business_type", BusinessType);
             writer.WriteStringValue("business_type_name", BusinessTypeName);
+            writer.WriteLongValue("cart_id", CartId);
             writer.WriteLongValue("cashback_type", CashbackType);
             writer.WriteStringValue("cashback_type_name", CashbackTypeName);
             writer.WriteLongValue("company_id", CompanyId);
@@ -416,7 +438,9 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
             writer.WriteStringValue("first_agent_name", FirstAgentName);
             writer.WriteStringValue("first_industry", FirstIndustry);
             writer.WriteLongValue("grant_cost", GrantCost);
+            writer.WriteStringValue("intention_no", IntentionNo);
             writer.WriteLongValue("is_matching_province", IsMatchingProvince);
+            writer.WriteStringValue("merch_no", MerchNo);
             writer.WriteLongValue("no_grant_cost", NoGrantCost);
             writer.WriteLongValue("prepay_cost", PrepayCost);
             writer.WriteLongValue("pricing_category", PricingCategory);

@@ -7,17 +7,17 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ClueFormDetailV2DataFormFormType
     {
-        [EnumMember(Value = "NORMAL_FORM")]
+        [EnumMember(Value = "NATIVE_FORM")]
         #pragma warning disable CS1591
-        NORMAL_FORM,
+        NATIVE_FORM,
         #pragma warning restore CS1591
         [EnumMember(Value = "ADVANCED_CREATIVE_FORM")]
         #pragma warning disable CS1591
         ADVANCED_CREATIVE_FORM,
         #pragma warning restore CS1591
-        [EnumMember(Value = "NATIVE_FORM")]
+        [EnumMember(Value = "NORMAL_FORM")]
         #pragma warning disable CS1591
-        NATIVE_FORM,
+        NORMAL_FORM,
         #pragma warning restore CS1591
     }
 }

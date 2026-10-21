@@ -7,10 +7,6 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ToolsBidSuggestV2Platform
     {
-        [EnumMember(Value = "IOS")]
-        #pragma warning disable CS1591
-        IOS,
-        #pragma warning restore CS1591
         [EnumMember(Value = "PC")]
         #pragma warning disable CS1591
         PC,
@@ -19,21 +15,25 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         ANDROID,
         #pragma warning restore CS1591
-        [EnumMember(Value = "IPAD")]
-        #pragma warning disable CS1591
-        IPAD,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "WAP")]
-        #pragma warning disable CS1591
-        WAP,
-        #pragma warning restore CS1591
         [EnumMember(Value = "HARMONY")]
         #pragma warning disable CS1591
         HARMONY,
         #pragma warning restore CS1591
+        [EnumMember(Value = "IPAD")]
+        #pragma warning disable CS1591
+        IPAD,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "IOS")]
+        #pragma warning disable CS1591
+        IOS,
+        #pragma warning restore CS1591
         [EnumMember(Value = "NONE")]
         #pragma warning disable CS1591
         NONE,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "WAP")]
+        #pragma warning disable CS1591
+        WAP,
         #pragma warning restore CS1591
     }
 }

@@ -11,6 +11,10 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         NORMAL,
         #pragma warning restore CS1591
+        [EnumMember(Value = "UNIVERSAL_ALL")]
+        #pragma warning disable CS1591
+        UNIVERSAL_ALL,
+        #pragma warning restore CS1591
         [EnumMember(Value = "UNIVERSAL")]
         #pragma warning disable CS1591
         UNIVERSAL,
@@ -18,10 +22,6 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         [EnumMember(Value = "SMART")]
         #pragma warning disable CS1591
         SMART,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "UNIVERSAL_ALL")]
-        #pragma warning disable CS1591
-        UNIVERSAL_ALL,
         #pragma warning restore CS1591
     }
 }

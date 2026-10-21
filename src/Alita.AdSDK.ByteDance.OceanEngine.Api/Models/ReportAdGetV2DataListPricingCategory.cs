@@ -7,25 +7,25 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ReportAdGetV2DataListPricingCategory
     {
-        [EnumMember(Value = "PRICING_CATEGORY_BID")]
+        [EnumMember(Value = "PRICING_CATEGORY_NOC")]
         #pragma warning disable CS1591
-        PRICING_CATEGORY_BID,
+        PRICING_CATEGORY_NOC,
         #pragma warning restore CS1591
         [EnumMember(Value = "PRICING_CATEGORY_BRAND")]
         #pragma warning disable CS1591
         PRICING_CATEGORY_BRAND,
         #pragma warning restore CS1591
+        [EnumMember(Value = "PRICING_CATEGORY_FREE")]
+        #pragma warning disable CS1591
+        PRICING_CATEGORY_FREE,
+        #pragma warning restore CS1591
         [EnumMember(Value = "PRICING_CATEGORY_BRAND_AND_PRICING")]
         #pragma warning disable CS1591
         PRICING_CATEGORY_BRAND_AND_PRICING,
         #pragma warning restore CS1591
-        [EnumMember(Value = "PRICING_CATEGORY_NOC")]
+        [EnumMember(Value = "PRICING_CATEGORY_BID")]
         #pragma warning disable CS1591
-        PRICING_CATEGORY_NOC,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "PRICING_CATEGORY_FREE")]
-        #pragma warning disable CS1591
-        PRICING_CATEGORY_FREE,
+        PRICING_CATEGORY_BID,
         #pragma warning restore CS1591
     }
 }

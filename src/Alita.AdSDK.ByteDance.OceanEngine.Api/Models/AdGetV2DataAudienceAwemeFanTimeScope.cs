@@ -7,17 +7,17 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum AdGetV2DataAudienceAwemeFanTimeScope
     {
-        [EnumMember(Value = "FIFTEEN_DAYS")]
+        [EnumMember(Value = "THIRTY_DAYS")]
         #pragma warning disable CS1591
-        FIFTEEN_DAYS,
+        THIRTY_DAYS,
         #pragma warning restore CS1591
         [EnumMember(Value = "SIXTY_DAYS")]
         #pragma warning disable CS1591
         SIXTY_DAYS,
         #pragma warning restore CS1591
-        [EnumMember(Value = "THIRTY_DAYS")]
+        [EnumMember(Value = "FIFTEEN_DAYS")]
         #pragma warning disable CS1591
-        THIRTY_DAYS,
+        FIFTEEN_DAYS,
         #pragma warning restore CS1591
     }
 }

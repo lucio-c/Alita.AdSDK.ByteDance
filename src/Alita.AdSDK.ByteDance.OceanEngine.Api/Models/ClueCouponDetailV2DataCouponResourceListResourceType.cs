@@ -7,25 +7,25 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ClueCouponDetailV2DataCouponResourceListResourceType
     {
-        [EnumMember(Value = "GAME")]
+        [EnumMember(Value = "PHYSICAL")]
         #pragma warning disable CS1591
-        GAME,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "DISCOUNT")]
-        #pragma warning disable CS1591
-        DISCOUNT,
+        PHYSICAL,
         #pragma warning restore CS1591
         [EnumMember(Value = "FULL")]
         #pragma warning disable CS1591
         FULL,
         #pragma warning restore CS1591
+        [EnumMember(Value = "GAME")]
+        #pragma warning disable CS1591
+        GAME,
+        #pragma warning restore CS1591
         [EnumMember(Value = "COMMON")]
         #pragma warning disable CS1591
         COMMON,
         #pragma warning restore CS1591
-        [EnumMember(Value = "PHYSICAL")]
+        [EnumMember(Value = "DISCOUNT")]
         #pragma warning disable CS1591
-        PHYSICAL,
+        DISCOUNT,
         #pragma warning restore CS1591
     }
 }

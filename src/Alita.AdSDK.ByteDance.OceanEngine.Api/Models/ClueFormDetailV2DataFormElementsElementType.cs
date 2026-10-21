@@ -7,21 +7,33 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ClueFormDetailV2DataFormElementsElementType
     {
-        [EnumMember(Value = "SEX")]
+        [EnumMember(Value = "SELECT")]
         #pragma warning disable CS1591
-        SEX,
+        SELECT,
         #pragma warning restore CS1591
-        [EnumMember(Value = "TELEPHONE")]
+        [EnumMember(Value = "TEXT")]
         #pragma warning disable CS1591
-        TELEPHONE,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "NUMBER")]
-        #pragma warning disable CS1591
-        NUMBER,
+        TEXT,
         #pragma warning restore CS1591
         [EnumMember(Value = "TEXTAREA")]
         #pragma warning disable CS1591
         TEXTAREA,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "EMAIL")]
+        #pragma warning disable CS1591
+        EMAIL,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "NAME")]
+        #pragma warning disable CS1591
+        NAME,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "CHECKBOX")]
+        #pragma warning disable CS1591
+        CHECKBOX,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "NUMBER")]
+        #pragma warning disable CS1591
+        NUMBER,
         #pragma warning restore CS1591
         [EnumMember(Value = "RADIO")]
         #pragma warning disable CS1591
@@ -31,33 +43,21 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         CALCULATOR,
         #pragma warning restore CS1591
-        [EnumMember(Value = "DATE")]
+        [EnumMember(Value = "SEX")]
         #pragma warning disable CS1591
-        DATE,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "NAME")]
-        #pragma warning disable CS1591
-        NAME,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "SELECT")]
-        #pragma warning disable CS1591
-        SELECT,
+        SEX,
         #pragma warning restore CS1591
         [EnumMember(Value = "CITY")]
         #pragma warning disable CS1591
         CITY,
         #pragma warning restore CS1591
-        [EnumMember(Value = "TEXT")]
+        [EnumMember(Value = "DATE")]
         #pragma warning disable CS1591
-        TEXT,
+        DATE,
         #pragma warning restore CS1591
-        [EnumMember(Value = "CHECKBOX")]
+        [EnumMember(Value = "TELEPHONE")]
         #pragma warning disable CS1591
-        CHECKBOX,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "EMAIL")]
-        #pragma warning disable CS1591
-        EMAIL,
+        TELEPHONE,
         #pragma warning restore CS1591
     }
 }

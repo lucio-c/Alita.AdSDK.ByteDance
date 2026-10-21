@@ -7,6 +7,10 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ToolsAppManagementBpShareV2DataSuccessListAllAccountByCompanyAccountType
     {
+        [EnumMember(Value = "BP")]
+        #pragma warning disable CS1591
+        BP,
+        #pragma warning restore CS1591
         [EnumMember(Value = "STAR")]
         #pragma warning disable CS1591
         STAR,
@@ -14,10 +18,6 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         [EnumMember(Value = "AD")]
         #pragma warning disable CS1591
         AD,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "BP")]
-        #pragma warning disable CS1591
-        BP,
         #pragma warning restore CS1591
     }
 }

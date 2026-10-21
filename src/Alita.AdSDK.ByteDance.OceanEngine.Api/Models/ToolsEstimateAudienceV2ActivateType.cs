@@ -7,6 +7,14 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ToolsEstimateAudienceV2ActivateType
     {
+        [EnumMember(Value = "ONE_MONTH_2_THREE_MONTH")]
+        #pragma warning disable CS1591
+        ONE_MONTH_2_THREE_MONTH,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "THREE_MONTH_EAILIER")]
+        #pragma warning disable CS1591
+        THREE_MONTH_EAILIER,
+        #pragma warning restore CS1591
         [EnumMember(Value = "UNLIMITED")]
         #pragma warning disable CS1591
         UNLIMITED,
@@ -14,14 +22,6 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         [EnumMember(Value = "WITH_IN_A_MONTH")]
         #pragma warning disable CS1591
         WITH_IN_A_MONTH,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "THREE_MONTH_EAILIER")]
-        #pragma warning disable CS1591
-        THREE_MONTH_EAILIER,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "ONE_MONTH_2_THREE_MONTH")]
-        #pragma warning disable CS1591
-        ONE_MONTH_2_THREE_MONTH,
         #pragma warning restore CS1591
     }
 }

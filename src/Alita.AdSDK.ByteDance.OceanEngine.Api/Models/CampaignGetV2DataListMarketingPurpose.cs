@@ -11,10 +11,6 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         UNLIMITED,
         #pragma warning restore CS1591
-        [EnumMember(Value = "INTENTION")]
-        #pragma warning disable CS1591
-        INTENTION,
-        #pragma warning restore CS1591
         [EnumMember(Value = "CONVERSION")]
         #pragma warning disable CS1591
         CONVERSION,
@@ -22,6 +18,10 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         [EnumMember(Value = "ACKNOWLEDGE")]
         #pragma warning disable CS1591
         ACKNOWLEDGE,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "INTENTION")]
+        #pragma warning disable CS1591
+        INTENTION,
         #pragma warning restore CS1591
     }
 }

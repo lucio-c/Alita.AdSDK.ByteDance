@@ -11,41 +11,41 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         UNKNOWN,
         #pragma warning restore CS1591
-        [EnumMember(Value = "CONSULT")]
+        [EnumMember(Value = "DOWNLOAD")]
         #pragma warning disable CS1591
-        CONSULT,
+        DOWNLOAD,
         #pragma warning restore CS1591
         [EnumMember(Value = "CARD")]
         #pragma warning disable CS1591
         CARD,
         #pragma warning restore CS1591
-        [EnumMember(Value = "GAME_FORM")]
-        #pragma warning disable CS1591
-        GAME_FORM,
-        #pragma warning restore CS1591
         [EnumMember(Value = "PHONE")]
         #pragma warning disable CS1591
         PHONE,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "GAME_PACKAGE")]
-        #pragma warning disable CS1591
-        GAME_PACKAGE,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "DOWNLOAD")]
-        #pragma warning disable CS1591
-        DOWNLOAD,
         #pragma warning restore CS1591
         [EnumMember(Value = "TABLE")]
         #pragma warning disable CS1591
         TABLE,
         #pragma warning restore CS1591
-        [EnumMember(Value = "LANDING")]
-        #pragma warning disable CS1591
-        LANDING,
-        #pragma warning restore CS1591
         [EnumMember(Value = "GAME_SUBSCRIBE")]
         #pragma warning disable CS1591
         GAME_SUBSCRIBE,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "GAME_PACKAGE")]
+        #pragma warning disable CS1591
+        GAME_PACKAGE,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "CONSULT")]
+        #pragma warning disable CS1591
+        CONSULT,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "GAME_FORM")]
+        #pragma warning disable CS1591
+        GAME_FORM,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "LANDING")]
+        #pragma warning disable CS1591
+        LANDING,
         #pragma warning restore CS1591
     }
 }

@@ -7,13 +7,13 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ClueCouponEmployeeCreateV2DataExistedListUserType
     {
-        [EnumMember(Value = "DOUYIN")]
-        #pragma warning disable CS1591
-        DOUYIN,
-        #pragma warning restore CS1591
         [EnumMember(Value = "TOUTIAO")]
         #pragma warning disable CS1591
         TOUTIAO,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "DOUYIN")]
+        #pragma warning disable CS1591
+        DOUYIN,
         #pragma warning restore CS1591
     }
 }

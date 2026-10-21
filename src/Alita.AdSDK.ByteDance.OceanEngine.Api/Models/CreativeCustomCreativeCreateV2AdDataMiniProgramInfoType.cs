@@ -7,21 +7,21 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum CreativeCustomCreativeCreateV2AdDataMiniProgramInfoType
     {
-        [EnumMember(Value = "TEMPLATE_APP")]
+        [EnumMember(Value = "BYTE_GAME")]
         #pragma warning disable CS1591
-        TEMPLATE_APP,
+        BYTE_GAME,
         #pragma warning restore CS1591
         [EnumMember(Value = "BYTE_APP")]
         #pragma warning disable CS1591
         BYTE_APP,
         #pragma warning restore CS1591
-        [EnumMember(Value = "BYTE_GAME")]
-        #pragma warning disable CS1591
-        BYTE_GAME,
-        #pragma warning restore CS1591
         [EnumMember(Value = "SHELL_APP")]
         #pragma warning disable CS1591
         SHELL_APP,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "TEMPLATE_APP")]
+        #pragma warning disable CS1591
+        TEMPLATE_APP,
         #pragma warning restore CS1591
     }
 }

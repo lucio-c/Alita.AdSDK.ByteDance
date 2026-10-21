@@ -7,25 +7,25 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ToolsPlayableCloudGameListV2DataListStatus
     {
-        [EnumMember(Value = "UPLOAD_STATUS")]
+        [EnumMember(Value = "ON_SHELF")]
         #pragma warning disable CS1591
-        UPLOAD_STATUS,
+        ON_SHELF,
         #pragma warning restore CS1591
         [EnumMember(Value = "AUDIT_SUCCESS")]
         #pragma warning disable CS1591
         AUDIT_SUCCESS,
         #pragma warning restore CS1591
-        [EnumMember(Value = "ON_SHELF")]
+        [EnumMember(Value = "OFF_SHELF")]
         #pragma warning disable CS1591
-        ON_SHELF,
+        OFF_SHELF,
         #pragma warning restore CS1591
         [EnumMember(Value = "AUDIT_FAIL")]
         #pragma warning disable CS1591
         AUDIT_FAIL,
         #pragma warning restore CS1591
-        [EnumMember(Value = "OFF_SHELF")]
+        [EnumMember(Value = "UPLOAD_STATUS")]
         #pragma warning disable CS1591
-        OFF_SHELF,
+        UPLOAD_STATUS,
         #pragma warning restore CS1591
     }
 }

@@ -7,13 +7,13 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ToolsLandingGroupGetV2DataListSitesSiteOptStatus
     {
-        [EnumMember(Value = "SITE_OPT_STATUS_ENABLE")]
-        #pragma warning disable CS1591
-        SITE_OPT_STATUS_ENABLE,
-        #pragma warning restore CS1591
         [EnumMember(Value = "SITE_OPT_STATUS_DISABLE")]
         #pragma warning disable CS1591
         SITE_OPT_STATUS_DISABLE,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "SITE_OPT_STATUS_ENABLE")]
+        #pragma warning disable CS1591
+        SITE_OPT_STATUS_ENABLE,
         #pragma warning restore CS1591
     }
 }

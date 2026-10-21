@@ -7,9 +7,9 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum CustomerCenterFundTransferSeqCreateV2TransferType
     {
-        [EnumMember(Value = "PREPAY_UNIVERSAL")]
+        [EnumMember(Value = "GRANT")]
         #pragma warning disable CS1591
-        PREPAY_UNIVERSAL,
+        GRANT,
         #pragma warning restore CS1591
         [EnumMember(Value = "PREPAY_BRAND")]
         #pragma warning disable CS1591
@@ -19,9 +19,9 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         CREDIT_BRAND,
         #pragma warning restore CS1591
-        [EnumMember(Value = "GRANT")]
+        [EnumMember(Value = "PREPAY_UNIVERSAL")]
         #pragma warning disable CS1591
-        GRANT,
+        PREPAY_UNIVERSAL,
         #pragma warning restore CS1591
         [EnumMember(Value = "PREPAY_BID")]
         #pragma warning disable CS1591

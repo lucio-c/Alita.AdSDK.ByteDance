@@ -7,25 +7,25 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum AdGetV2DataInventoryCatalog
     {
-        [EnumMember(Value = "SMART")]
+        [EnumMember(Value = "SCENE")]
         #pragma warning disable CS1591
-        SMART,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "UNIVERSAL_SMART")]
-        #pragma warning disable CS1591
-        UNIVERSAL_SMART,
+        SCENE,
         #pragma warning restore CS1591
         [EnumMember(Value = "UNIVERSAL")]
         #pragma warning disable CS1591
         UNIVERSAL,
         #pragma warning restore CS1591
+        [EnumMember(Value = "UNIVERSAL_SMART")]
+        #pragma warning disable CS1591
+        UNIVERSAL_SMART,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "SMART")]
+        #pragma warning disable CS1591
+        SMART,
+        #pragma warning restore CS1591
         [EnumMember(Value = "MANUAL")]
         #pragma warning disable CS1591
         MANUAL,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "SCENE")]
-        #pragma warning disable CS1591
-        SCENE,
         #pragma warning restore CS1591
     }
 }

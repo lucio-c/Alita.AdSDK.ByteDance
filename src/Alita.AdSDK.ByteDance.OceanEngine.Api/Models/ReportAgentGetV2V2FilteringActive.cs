@@ -11,13 +11,13 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         ACTIVE,
         #pragma warning restore CS1591
-        [EnumMember(Value = "ALL")]
-        #pragma warning disable CS1591
-        ALL,
-        #pragma warning restore CS1591
         [EnumMember(Value = "SILENT")]
         #pragma warning disable CS1591
         SILENT,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "ALL")]
+        #pragma warning disable CS1591
+        ALL,
         #pragma warning restore CS1591
     }
 }

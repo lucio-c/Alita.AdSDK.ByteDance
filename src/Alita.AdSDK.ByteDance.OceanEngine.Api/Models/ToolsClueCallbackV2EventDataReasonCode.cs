@@ -111,5 +111,33 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         OTHER,
         #pragma warning restore CS1591
+        [EnumMember(Value = "HOUSE_INTERESTED")]
+        #pragma warning disable CS1591
+        HOUSE_INTERESTED,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "HOUSE_NEW_HOUSE_REPORT")]
+        #pragma warning disable CS1591
+        HOUSE_NEW_HOUSE_REPORT,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "HOUSE_OLD_HOUSE_LOOK")]
+        #pragma warning disable CS1591
+        HOUSE_OLD_HOUSE_LOOK,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "HOUSE_NEW_HOUSE_LOOK")]
+        #pragma warning disable CS1591
+        HOUSE_NEW_HOUSE_LOOK,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "HOUSE_OLD_HOUSE_DEAL")]
+        #pragma warning disable CS1591
+        HOUSE_OLD_HOUSE_DEAL,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "HOUSE_NEW_HOUSE_DEAL")]
+        #pragma warning disable CS1591
+        HOUSE_NEW_HOUSE_DEAL,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "HOUSE_NO_INTENTION")]
+        #pragma warning disable CS1591
+        HOUSE_NO_INTENTION,
+        #pragma warning restore CS1591
     }
 }

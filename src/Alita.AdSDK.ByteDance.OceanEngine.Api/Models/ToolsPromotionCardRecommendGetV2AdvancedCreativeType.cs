@@ -7,21 +7,53 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ToolsPromotionCardRecommendGetV2AdvancedCreativeType
     {
+        [EnumMember(Value = "ATTACHED_CREATIVE_PHONE")]
+        #pragma warning disable CS1591
+        ATTACHED_CREATIVE_PHONE,
+        #pragma warning restore CS1591
         [EnumMember(Value = "ATTACHED_CREATIVE_CARD")]
         #pragma warning disable CS1591
         ATTACHED_CREATIVE_CARD,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "ATTACHED_CREATIVE_INTERACT")]
+        #pragma warning disable CS1591
+        ATTACHED_CREATIVE_INTERACT,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "ATTACHED_CREATIVE_VOTE_INTERACT")]
+        #pragma warning disable CS1591
+        ATTACHED_CREATIVE_VOTE_INTERACT,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "ATTACHED_CREATIVE_GAME_PACKAGE")]
+        #pragma warning disable CS1591
+        ATTACHED_CREATIVE_GAME_PACKAGE,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "ATTACHED_CREATIVE_COUPON_INTERACT")]
+        #pragma warning disable CS1591
+        ATTACHED_CREATIVE_COUPON_INTERACT,
         #pragma warning restore CS1591
         [EnumMember(Value = "ATTACHED_CREATIVE_GAME_SUBSCRIBE")]
         #pragma warning disable CS1591
         ATTACHED_CREATIVE_GAME_SUBSCRIBE,
         #pragma warning restore CS1591
-        [EnumMember(Value = "ATTACHED_CREATIVE_GAME_FORM")]
+        [EnumMember(Value = "ATTACHED_CREATIVE_COMMERCE_CARD")]
         #pragma warning disable CS1591
-        ATTACHED_CREATIVE_GAME_FORM,
+        ATTACHED_CREATIVE_COMMERCE_CARD,
         #pragma warning restore CS1591
         [EnumMember(Value = "ATTACHED_CREATIVE_LIVE_CARD")]
         #pragma warning disable CS1591
         ATTACHED_CREATIVE_LIVE_CARD,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "ATTACHED_CREATIVE_DOWNLOAD_CARD")]
+        #pragma warning disable CS1591
+        ATTACHED_CREATIVE_DOWNLOAD_CARD,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "ATTACHED_CREATIVE_GAME_FORM")]
+        #pragma warning disable CS1591
+        ATTACHED_CREATIVE_GAME_FORM,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "ATTACHED_CREATIVE_SMART_PHONE")]
+        #pragma warning disable CS1591
+        ATTACHED_CREATIVE_SMART_PHONE,
         #pragma warning restore CS1591
         [EnumMember(Value = "ATTACHED_CREATIVE_CONSULTANT")]
         #pragma warning disable CS1591
@@ -35,45 +67,13 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         ATTACHED_CREATIVE_FORM,
         #pragma warning restore CS1591
-        [EnumMember(Value = "ATTACHED_CREATIVE_GAME_PACKAGE")]
-        #pragma warning disable CS1591
-        ATTACHED_CREATIVE_GAME_PACKAGE,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "ATTACHED_CREATIVE_VOTE_INTERACT")]
-        #pragma warning disable CS1591
-        ATTACHED_CREATIVE_VOTE_INTERACT,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "ATTACHED_CREATIVE_DOWNLOAD_CARD")]
-        #pragma warning disable CS1591
-        ATTACHED_CREATIVE_DOWNLOAD_CARD,
-        #pragma warning restore CS1591
         [EnumMember(Value = "ATTACHED_CREATIVE_NONE")]
         #pragma warning disable CS1591
         ATTACHED_CREATIVE_NONE,
         #pragma warning restore CS1591
-        [EnumMember(Value = "ATTACHED_CREATIVE_INTERACT")]
-        #pragma warning disable CS1591
-        ATTACHED_CREATIVE_INTERACT,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "ATTACHED_CREATIVE_COMMERCE_CARD")]
-        #pragma warning disable CS1591
-        ATTACHED_CREATIVE_COMMERCE_CARD,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "ATTACHED_CREATIVE_COUPON_INTERACT")]
-        #pragma warning disable CS1591
-        ATTACHED_CREATIVE_COUPON_INTERACT,
-        #pragma warning restore CS1591
         [EnumMember(Value = "ATTACHED_CREATIVE_COUPON")]
         #pragma warning disable CS1591
         ATTACHED_CREATIVE_COUPON,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "ATTACHED_CREATIVE_SMART_PHONE")]
-        #pragma warning disable CS1591
-        ATTACHED_CREATIVE_SMART_PHONE,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "ATTACHED_CREATIVE_PHONE")]
-        #pragma warning disable CS1591
-        ATTACHED_CREATIVE_PHONE,
         #pragma warning restore CS1591
     }
 }

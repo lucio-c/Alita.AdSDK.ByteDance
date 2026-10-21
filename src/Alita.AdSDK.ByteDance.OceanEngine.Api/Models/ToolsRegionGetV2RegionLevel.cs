@@ -7,21 +7,21 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ToolsRegionGetV2RegionLevel
     {
-        [EnumMember(Value = "REGION_LEVEL_CITY")]
+        [EnumMember(Value = "REGION_LEVEL_BUSINESS_DISTRICT")]
         #pragma warning disable CS1591
-        REGION_LEVEL_CITY,
+        REGION_LEVEL_BUSINESS_DISTRICT,
         #pragma warning restore CS1591
         [EnumMember(Value = "REGION_LEVEL_DISTRICT")]
         #pragma warning disable CS1591
         REGION_LEVEL_DISTRICT,
         #pragma warning restore CS1591
+        [EnumMember(Value = "REGION_LEVEL_CITY")]
+        #pragma warning disable CS1591
+        REGION_LEVEL_CITY,
+        #pragma warning restore CS1591
         [EnumMember(Value = "REGION_LEVEL_PROVINCE")]
         #pragma warning disable CS1591
         REGION_LEVEL_PROVINCE,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "REGION_LEVEL_BUSINESS_DISTRICT")]
-        #pragma warning disable CS1591
-        REGION_LEVEL_BUSINESS_DISTRICT,
         #pragma warning restore CS1591
     }
 }

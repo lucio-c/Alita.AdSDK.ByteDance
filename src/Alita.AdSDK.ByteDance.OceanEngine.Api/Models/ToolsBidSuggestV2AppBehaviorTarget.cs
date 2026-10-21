@@ -7,6 +7,10 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ToolsBidSuggestV2AppBehaviorTarget
     {
+        [EnumMember(Value = "APP")]
+        #pragma warning disable CS1591
+        APP,
+        #pragma warning restore CS1591
         [EnumMember(Value = "CATEGORY")]
         #pragma warning disable CS1591
         CATEGORY,
@@ -14,10 +18,6 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         [EnumMember(Value = "NONE")]
         #pragma warning disable CS1591
         NONE,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "APP")]
-        #pragma warning disable CS1591
-        APP,
         #pragma warning restore CS1591
     }
 }

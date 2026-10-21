@@ -29,6 +29,14 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
 #else
         public List<string> NewAccountNames { get; set; }
 #endif
+        /// <summary>The owner_user property</summary>
+#if NETSTANDARD2_1_OR_GREATER || NETCOREAPP3_1_OR_GREATER
+#nullable enable
+        public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.EbpAccountCreateV30RequestOwnerUser? OwnerUser { get; set; }
+#nullable restore
+#else
+        public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.EbpAccountCreateV30RequestOwnerUser OwnerUser { get; set; }
+#endif
         /// <summary>
         /// 创建 <see cref="global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.EbpAccountCreateV30Request"/>，并填入默认值。
         /// </summary>
@@ -49,7 +57,7 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         /// <summary>
         /// 当前模型的反序列化字段映射。
         /// </summary>
-        /// <returns>IDictionary&lt;string, Action&lt;IParseNode&gt;&gt;</returns>
+        /// <returns>返回 IDictionary&lt;string, Action&lt;IParseNode&gt;&gt;</returns>
         public virtual IDictionary<string, Action<IParseNode>> GetFieldDeserializers()
         {
             return new Dictionary<string, Action<IParseNode>>
@@ -58,6 +66,7 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
                 { "customer_id", n => { CustomerId = n.GetLongValue(); } },
                 { "enterprise_organization_id", n => { EnterpriseOrganizationId = n.GetLongValue(); } },
                 { "new_account_names", n => { NewAccountNames = n.GetCollectionOfPrimitiveValues<string>()?.AsList(); } },
+                { "owner_user", n => { OwnerUser = n.GetObjectValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.EbpAccountCreateV30RequestOwnerUser>(global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.EbpAccountCreateV30RequestOwnerUser.CreateFromDiscriminatorValue); } },
             };
         }
         /// <summary>
@@ -71,6 +80,7 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
             writer.WriteLongValue("customer_id", CustomerId);
             writer.WriteLongValue("enterprise_organization_id", EnterpriseOrganizationId);
             writer.WriteCollectionOfPrimitiveValues<string>("new_account_names", NewAccountNames);
+            writer.WriteObjectValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.EbpAccountCreateV30RequestOwnerUser>("owner_user", OwnerUser);
             writer.WriteAdditionalData(AdditionalData);
         }
     }

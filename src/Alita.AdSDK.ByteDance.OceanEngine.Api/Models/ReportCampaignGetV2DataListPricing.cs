@@ -7,33 +7,33 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ReportCampaignGetV2DataListPricing
     {
+        [EnumMember(Value = "PRICING_CPV")]
+        #pragma warning disable CS1591
+        PRICING_CPV,
+        #pragma warning restore CS1591
         [EnumMember(Value = "PRICING_CPM")]
         #pragma warning disable CS1591
         PRICING_CPM,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "PRICING_OCPC")]
-        #pragma warning disable CS1591
-        PRICING_OCPC,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "PRICING_OCPM")]
-        #pragma warning disable CS1591
-        PRICING_OCPM,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "PRICING_CPC")]
-        #pragma warning disable CS1591
-        PRICING_CPC,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "PRICING_CPA")]
-        #pragma warning disable CS1591
-        PRICING_CPA,
         #pragma warning restore CS1591
         [EnumMember(Value = "PRICING_ECPC")]
         #pragma warning disable CS1591
         PRICING_ECPC,
         #pragma warning restore CS1591
-        [EnumMember(Value = "PRICING_CPV")]
+        [EnumMember(Value = "PRICING_CPC")]
         #pragma warning disable CS1591
-        PRICING_CPV,
+        PRICING_CPC,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "PRICING_OCPM")]
+        #pragma warning disable CS1591
+        PRICING_OCPM,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "PRICING_OCPC")]
+        #pragma warning disable CS1591
+        PRICING_OCPC,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "PRICING_CPA")]
+        #pragma warning disable CS1591
+        PRICING_CPA,
         #pragma warning restore CS1591
     }
 }

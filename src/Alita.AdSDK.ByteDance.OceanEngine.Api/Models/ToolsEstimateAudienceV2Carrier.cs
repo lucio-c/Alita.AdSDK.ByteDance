@@ -11,13 +11,13 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         UNICOM,
         #pragma warning restore CS1591
-        [EnumMember(Value = "MOBILE")]
-        #pragma warning disable CS1591
-        MOBILE,
-        #pragma warning restore CS1591
         [EnumMember(Value = "TELCOM")]
         #pragma warning disable CS1591
         TELCOM,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "MOBILE")]
+        #pragma warning disable CS1591
+        MOBILE,
         #pragma warning restore CS1591
     }
 }

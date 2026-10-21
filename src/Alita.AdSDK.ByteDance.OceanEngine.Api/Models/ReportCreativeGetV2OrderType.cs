@@ -7,13 +7,13 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ReportCreativeGetV2OrderType
     {
-        [EnumMember(Value = "ASC")]
-        #pragma warning disable CS1591
-        ASC,
-        #pragma warning restore CS1591
         [EnumMember(Value = "DESC")]
         #pragma warning disable CS1591
         DESC,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "ASC")]
+        #pragma warning disable CS1591
+        ASC,
         #pragma warning restore CS1591
     }
 }

@@ -7,6 +7,10 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum AudiencePackageCreateV2District
     {
+        [EnumMember(Value = "BUSINESS_DISTRICT")]
+        #pragma warning disable CS1591
+        BUSINESS_DISTRICT,
+        #pragma warning restore CS1591
         [EnumMember(Value = "REGION")]
         #pragma warning disable CS1591
         REGION,
@@ -14,10 +18,6 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         [EnumMember(Value = "NONE")]
         #pragma warning disable CS1591
         NONE,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "BUSINESS_DISTRICT")]
-        #pragma warning disable CS1591
-        BUSINESS_DISTRICT,
         #pragma warning restore CS1591
         [EnumMember(Value = "OVERSEA")]
         #pragma warning disable CS1591

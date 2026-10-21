@@ -4,6 +4,7 @@ using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.Two.Advertiser.Avatar;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.Two.Advertiser.Budget;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.Two.Advertiser.Cancelable;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.Two.Advertiser.Fund;
+using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.Two.Advertiser.Going_global_budget;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.Two.Advertiser.Info;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.Two.Advertiser.Public_info;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.Two.Advertiser.Qualification;
@@ -42,6 +43,11 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.Two.Advertiser
         public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.Two.Advertiser.Fund.FundRequestBuilder Fund
         {
             get => new global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.Two.Advertiser.Fund.FundRequestBuilder(PathParameters, RequestAdapter);
+        }
+        /// <summary>The going_global_budget property</summary>
+        public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.Two.Advertiser.Going_global_budget.Going_global_budgetRequestBuilder Going_global_budget
+        {
+            get => new global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.Two.Advertiser.Going_global_budget.Going_global_budgetRequestBuilder(PathParameters, RequestAdapter);
         }
         /// <summary>The info property</summary>
         public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.Two.Advertiser.Info.InfoRequestBuilder Info

@@ -7,6 +7,14 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum QianchuanAdStatusUpdateV10OptStatus
     {
+        [EnumMember(Value = "ENABLE")]
+        #pragma warning disable CS1591
+        ENABLE,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "DELETE")]
+        #pragma warning disable CS1591
+        DELETE,
+        #pragma warning restore CS1591
         [EnumMember(Value = "REVIVE")]
         #pragma warning disable CS1591
         REVIVE,
@@ -14,14 +22,6 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         [EnumMember(Value = "DISABLE")]
         #pragma warning disable CS1591
         DISABLE,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "DELETE")]
-        #pragma warning disable CS1591
-        DELETE,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "ENABLE")]
-        #pragma warning disable CS1591
-        ENABLE,
         #pragma warning restore CS1591
     }
 }

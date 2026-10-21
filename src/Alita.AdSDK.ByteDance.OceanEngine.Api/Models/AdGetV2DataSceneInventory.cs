@@ -11,6 +11,10 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         VIDEO_SCENE,
         #pragma warning restore CS1591
+        [EnumMember(Value = "NOT_SELECT")]
+        #pragma warning disable CS1591
+        NOT_SELECT,
+        #pragma warning restore CS1591
         [EnumMember(Value = "TAIL_SCENE")]
         #pragma warning disable CS1591
         TAIL_SCENE,
@@ -18,10 +22,6 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         [EnumMember(Value = "FEED_SCENE")]
         #pragma warning disable CS1591
         FEED_SCENE,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "NOT_SELECT")]
-        #pragma warning disable CS1591
-        NOT_SELECT,
         #pragma warning restore CS1591
     }
 }

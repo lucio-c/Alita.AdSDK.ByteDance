@@ -7,25 +7,25 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ReportAudienceAwemeListV2FilteringAudienceLevel
     {
-        [EnumMember(Value = "FOURTH_LEVEL")]
-        #pragma warning disable CS1591
-        FOURTH_LEVEL,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "KEYWORD_AWEME")]
-        #pragma warning disable CS1591
-        KEYWORD_AWEME,
-        #pragma warning restore CS1591
         [EnumMember(Value = "FIRST_LEVEL")]
         #pragma warning disable CS1591
         FIRST_LEVEL,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "SECOND_LEVEL")]
+        #pragma warning disable CS1591
+        SECOND_LEVEL,
         #pragma warning restore CS1591
         [EnumMember(Value = "THIRD_LEVEL")]
         #pragma warning disable CS1591
         THIRD_LEVEL,
         #pragma warning restore CS1591
-        [EnumMember(Value = "SECOND_LEVEL")]
+        [EnumMember(Value = "KEYWORD_AWEME")]
         #pragma warning disable CS1591
-        SECOND_LEVEL,
+        KEYWORD_AWEME,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "FOURTH_LEVEL")]
+        #pragma warning disable CS1591
+        FOURTH_LEVEL,
         #pragma warning restore CS1591
     }
 }

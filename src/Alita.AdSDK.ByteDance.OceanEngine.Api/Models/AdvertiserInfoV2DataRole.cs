@@ -7,13 +7,37 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum AdvertiserInfoV2DataRole
     {
+        [EnumMember(Value = "ROLE_ADMIN")]
+        #pragma warning disable CS1591
+        ROLE_ADMIN,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "ROLE_ECP_ADVERTISER")]
+        #pragma warning disable CS1591
+        ROLE_ECP_ADVERTISER,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "ROLE_AGENT_SYSTEM_ACCOUNT")]
+        #pragma warning disable CS1591
+        ROLE_AGENT_SYSTEM_ACCOUNT,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "ROLE_ECP_CHILD_ADVERTISER")]
+        #pragma warning disable CS1591
+        ROLE_ECP_CHILD_ADVERTISER,
+        #pragma warning restore CS1591
         [EnumMember(Value = "ROLE_ECP_INTERNAL_ADVERTISER")]
         #pragma warning disable CS1591
         ROLE_ECP_INTERNAL_ADVERTISER,
         #pragma warning restore CS1591
-        [EnumMember(Value = "ROLE_LOCAL_LIFE_ADVERTISER")]
+        [EnumMember(Value = "ROLE_DSP_ADVERTISER")]
         #pragma warning disable CS1591
-        ROLE_LOCAL_LIFE_ADVERTISER,
+        ROLE_DSP_ADVERTISER,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "ROLE_CHILD_AGENT")]
+        #pragma warning disable CS1591
+        ROLE_CHILD_AGENT,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "ROLE_PGC_ADVERTISER")]
+        #pragma warning disable CS1591
+        ROLE_PGC_ADVERTISER,
         #pragma warning restore CS1591
         [EnumMember(Value = "ROLE_ADVERTISER")]
         #pragma warning disable CS1591
@@ -23,13 +47,33 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         ROLE_LOCAL_LIFE_VIRTUAL_ADVERTISER,
         #pragma warning restore CS1591
-        [EnumMember(Value = "ROLE_PGC_ADVERTISER")]
+        [EnumMember(Value = "ROLE_AGENT")]
         #pragma warning disable CS1591
-        ROLE_PGC_ADVERTISER,
+        ROLE_AGENT,
         #pragma warning restore CS1591
-        [EnumMember(Value = "ROLE_ADMIN")]
+        [EnumMember(Value = "ROLE_AWEME_PROMOTION_ADVERTISER")]
         #pragma warning disable CS1591
-        ROLE_ADMIN,
+        ROLE_AWEME_PROMOTION_ADVERTISER,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "ROLE_AGENT_ABSTRACT")]
+        #pragma warning disable CS1591
+        ROLE_AGENT_ABSTRACT,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "ROLE_LOCAL_LIFE_ADVERTISER")]
+        #pragma warning disable CS1591
+        ROLE_LOCAL_LIFE_ADVERTISER,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "ROLE_INTERNAL_ADV")]
+        #pragma warning disable CS1591
+        ROLE_INTERNAL_ADV,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "ROLE_LITE_ADVERTISER")]
+        #pragma warning disable CS1591
+        ROLE_LITE_ADVERTISER,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "ROLE_ADVERTISER_SYSTEM_ACCOUNT")]
+        #pragma warning disable CS1591
+        ROLE_ADVERTISER_SYSTEM_ACCOUNT,
         #pragma warning restore CS1591
         [EnumMember(Value = "ROLE_MAJORDOMO")]
         #pragma warning disable CS1591
@@ -39,69 +83,25 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         ROLE_ADVERTISER_ABSTRACT,
         #pragma warning restore CS1591
-        [EnumMember(Value = "ROLE_AGENT_SYSTEM_ACCOUNT")]
+        [EnumMember(Value = "ROLE_HOTSOON_PROMOTION_ADVERTISER")]
         #pragma warning disable CS1591
-        ROLE_AGENT_SYSTEM_ACCOUNT,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "ROLE_ADVERTISER_SYSTEM_ACCOUNT")]
-        #pragma warning disable CS1591
-        ROLE_ADVERTISER_SYSTEM_ACCOUNT,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "ROLE_AGENT_ABSTRACT")]
-        #pragma warning disable CS1591
-        ROLE_AGENT_ABSTRACT,
+        ROLE_HOTSOON_PROMOTION_ADVERTISER,
         #pragma warning restore CS1591
         [EnumMember(Value = "ROLE_CHILD_ADVERTISER")]
         #pragma warning disable CS1591
         ROLE_CHILD_ADVERTISER,
         #pragma warning restore CS1591
-        [EnumMember(Value = "ROLE_HOTSOON_ADVERTISER")]
-        #pragma warning disable CS1591
-        ROLE_HOTSOON_ADVERTISER,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "ROLE_AGENT")]
-        #pragma warning disable CS1591
-        ROLE_AGENT,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "ROLE_CHILD_AGENT")]
-        #pragma warning disable CS1591
-        ROLE_CHILD_AGENT,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "ROLE_AWEME_PROMOTION_ADVERTISER")]
-        #pragma warning disable CS1591
-        ROLE_AWEME_PROMOTION_ADVERTISER,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "ROLE_HOTSOON_PROMOTION_ADVERTISER")]
-        #pragma warning disable CS1591
-        ROLE_HOTSOON_PROMOTION_ADVERTISER,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "ROLE_LITE_ADVERTISER")]
-        #pragma warning disable CS1591
-        ROLE_LITE_ADVERTISER,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "ROLE_ECP_ADVERTISER")]
-        #pragma warning disable CS1591
-        ROLE_ECP_ADVERTISER,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "ROLE_DSP_ADVERTISER")]
-        #pragma warning disable CS1591
-        ROLE_DSP_ADVERTISER,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "ROLE_ECP_CHILD_ADVERTISER")]
-        #pragma warning disable CS1591
-        ROLE_ECP_CHILD_ADVERTISER,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "ROLE_LOCAL_LIFE_INTERNAL_ADVERTISER")]
-        #pragma warning disable CS1591
-        ROLE_LOCAL_LIFE_INTERNAL_ADVERTISER,
-        #pragma warning restore CS1591
         [EnumMember(Value = "ROLE_DOUDIAN_ADVERTISER")]
         #pragma warning disable CS1591
         ROLE_DOUDIAN_ADVERTISER,
         #pragma warning restore CS1591
-        [EnumMember(Value = "ROLE_INTERNAL_ADV")]
+        [EnumMember(Value = "ROLE_HOTSOON_ADVERTISER")]
         #pragma warning disable CS1591
-        ROLE_INTERNAL_ADV,
+        ROLE_HOTSOON_ADVERTISER,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "ROLE_LOCAL_LIFE_INTERNAL_ADVERTISER")]
+        #pragma warning disable CS1591
+        ROLE_LOCAL_LIFE_INTERNAL_ADVERTISER,
         #pragma warning restore CS1591
     }
 }

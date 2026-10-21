@@ -11,6 +11,10 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         VALIDATE_FAIL,
         #pragma warning restore CS1591
+        [EnumMember(Value = "VALIDATE_SUCCESS")]
+        #pragma warning disable CS1591
+        VALIDATE_SUCCESS,
+        #pragma warning restore CS1591
         [EnumMember(Value = "AUDIT_SUCCESS")]
         #pragma warning disable CS1591
         AUDIT_SUCCESS,
@@ -22,10 +26,6 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         [EnumMember(Value = "AUDIT_FAIL")]
         #pragma warning disable CS1591
         AUDIT_FAIL,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "VALIDATE_SUCCESS")]
-        #pragma warning disable CS1591
-        VALIDATE_SUCCESS,
         #pragma warning restore CS1591
     }
 }

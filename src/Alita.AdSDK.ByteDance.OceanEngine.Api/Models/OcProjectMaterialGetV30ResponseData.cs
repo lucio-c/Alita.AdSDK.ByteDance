@@ -48,6 +48,14 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
 #else
         public List<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.OcProjectMaterialGetV30ResponseDataComponentMaterialListInner> ComponentMaterialList { get; set; }
 #endif
+        /// <summary>The cursor_info property</summary>
+#if NETSTANDARD2_1_OR_GREATER || NETCOREAPP3_1_OR_GREATER
+#nullable enable
+        public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.OcProjectMaterialGetV30ResponseDataCursorInfo? CursorInfo { get; set; }
+#nullable restore
+#else
+        public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.OcProjectMaterialGetV30ResponseDataCursorInfo CursorInfo { get; set; }
+#endif
         /// <summary>落地页链接字段选择</summary>
 #if NETSTANDARD2_1_OR_GREATER || NETCOREAPP3_1_OR_GREATER
 #nullable enable
@@ -226,7 +234,7 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         /// <summary>
         /// 当前模型的反序列化字段映射。
         /// </summary>
-        /// <returns>IDictionary&lt;string, Action&lt;IParseNode&gt;&gt;</returns>
+        /// <returns>返回 IDictionary&lt;string, Action&lt;IParseNode&gt;&gt;</returns>
         public virtual IDictionary<string, Action<IParseNode>> GetFieldDeserializers()
         {
             return new Dictionary<string, Action<IParseNode>>
@@ -236,6 +244,7 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
                 { "call_to_action_buttons", n => { CallToActionButtons = n.GetCollectionOfPrimitiveValues<string>()?.AsList(); } },
                 { "carousel_material_list", n => { CarouselMaterialList = n.GetCollectionOfObjectValues<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.OcProjectMaterialGetV30ResponseDataCarouselMaterialListInner>(global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.OcProjectMaterialGetV30ResponseDataCarouselMaterialListInner.CreateFromDiscriminatorValue)?.AsList(); } },
                 { "component_material_list", n => { ComponentMaterialList = n.GetCollectionOfObjectValues<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.OcProjectMaterialGetV30ResponseDataComponentMaterialListInner>(global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.OcProjectMaterialGetV30ResponseDataComponentMaterialListInner.CreateFromDiscriminatorValue)?.AsList(); } },
+                { "cursor_info", n => { CursorInfo = n.GetObjectValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.OcProjectMaterialGetV30ResponseDataCursorInfo>(global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.OcProjectMaterialGetV30ResponseDataCursorInfo.CreateFromDiscriminatorValue); } },
                 { "external_url_field", n => { ExternalUrlField = n.GetStringValue(); } },
                 { "external_url_material_list", n => { ExternalUrlMaterialList = n.GetCollectionOfPrimitiveValues<string>()?.AsList(); } },
                 { "external_url_params", n => { ExternalUrlParams = n.GetStringValue(); } },
@@ -272,6 +281,7 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
             writer.WriteCollectionOfPrimitiveValues<string>("call_to_action_buttons", CallToActionButtons);
             writer.WriteCollectionOfObjectValues<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.OcProjectMaterialGetV30ResponseDataCarouselMaterialListInner>("carousel_material_list", CarouselMaterialList);
             writer.WriteCollectionOfObjectValues<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.OcProjectMaterialGetV30ResponseDataComponentMaterialListInner>("component_material_list", ComponentMaterialList);
+            writer.WriteObjectValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.OcProjectMaterialGetV30ResponseDataCursorInfo>("cursor_info", CursorInfo);
             writer.WriteStringValue("external_url_field", ExternalUrlField);
             writer.WriteCollectionOfPrimitiveValues<string>("external_url_material_list", ExternalUrlMaterialList);
             writer.WriteStringValue("external_url_params", ExternalUrlParams);

@@ -7,37 +7,17 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum CampaignGetV2DataListSmartBidType
     {
-        [EnumMember(Value = "GD_PROMOTE")]
-        #pragma warning disable CS1591
-        GD_PROMOTE,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "MAX_CONVERSION")]
-        #pragma warning disable CS1591
-        MAX_CONVERSION,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "MAXCV")]
-        #pragma warning disable CS1591
-        MAXCV,
-        #pragma warning restore CS1591
         [EnumMember(Value = "SMART_BID_NO_BID")]
         #pragma warning disable CS1591
         SMART_BID_NO_BID,
         #pragma warning restore CS1591
-        [EnumMember(Value = "LITE_PACING")]
-        #pragma warning disable CS1591
-        LITE_PACING,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "AWEME_LITE_PACING")]
-        #pragma warning disable CS1591
-        AWEME_LITE_PACING,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "BAOSHOU")]
-        #pragma warning disable CS1591
-        BAOSHOU,
-        #pragma warning restore CS1591
         [EnumMember(Value = "CUSTOM")]
         #pragma warning disable CS1591
         CUSTOM,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "MAX_CONVERSION")]
+        #pragma warning disable CS1591
+        MAX_CONVERSION,
         #pragma warning restore CS1591
         [EnumMember(Value = "GUARANTEED_SHOW")]
         #pragma warning disable CS1591
@@ -46,6 +26,26 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         [EnumMember(Value = "JIJIN")]
         #pragma warning disable CS1591
         JIJIN,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "MAXCV")]
+        #pragma warning disable CS1591
+        MAXCV,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "AWEME_LITE_PACING")]
+        #pragma warning disable CS1591
+        AWEME_LITE_PACING,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "LITE_PACING")]
+        #pragma warning disable CS1591
+        LITE_PACING,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "GD_PROMOTE")]
+        #pragma warning disable CS1591
+        GD_PROMOTE,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "BAOSHOU")]
+        #pragma warning disable CS1591
+        BAOSHOU,
         #pragma warning restore CS1591
     }
 }

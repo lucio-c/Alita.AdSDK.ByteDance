@@ -7,10 +7,6 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum CampaignUpdateV2BudgetMode
     {
-        [EnumMember(Value = "BUDGET_MODE_DAY")]
-        #pragma warning disable CS1591
-        BUDGET_MODE_DAY,
-        #pragma warning restore CS1591
         [EnumMember(Value = "BUDGET_MODE_TOTAL")]
         #pragma warning disable CS1591
         BUDGET_MODE_TOTAL,
@@ -18,6 +14,10 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         [EnumMember(Value = "BUDGET_MODE_INFINITE")]
         #pragma warning disable CS1591
         BUDGET_MODE_INFINITE,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "BUDGET_MODE_DAY")]
+        #pragma warning disable CS1591
+        BUDGET_MODE_DAY,
         #pragma warning restore CS1591
     }
 }

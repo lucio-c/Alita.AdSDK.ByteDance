@@ -15,13 +15,13 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         DYNAMIC_CREATIVE_ABSTRACT,
         #pragma warning restore CS1591
-        [EnumMember(Value = "DYNAMIC_CREATIVE_SUBLINK")]
-        #pragma warning disable CS1591
-        DYNAMIC_CREATIVE_SUBLINK,
-        #pragma warning restore CS1591
         [EnumMember(Value = "DYNAMIC_CREATIVE_TITLE")]
         #pragma warning disable CS1591
         DYNAMIC_CREATIVE_TITLE,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "DYNAMIC_CREATIVE_SUBLINK")]
+        #pragma warning disable CS1591
+        DYNAMIC_CREATIVE_SUBLINK,
         #pragma warning restore CS1591
     }
 }

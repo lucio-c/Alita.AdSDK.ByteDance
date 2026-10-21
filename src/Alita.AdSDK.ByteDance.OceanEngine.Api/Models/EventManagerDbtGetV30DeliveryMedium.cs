@@ -27,6 +27,10 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         ENTERPRISE,
         #pragma warning restore CS1591
+        [EnumMember(Value = "ORANGE")]
+        #pragma warning disable CS1591
+        ORANGE,
+        #pragma warning restore CS1591
         [EnumMember(Value = "QUICK_APP")]
         #pragma warning disable CS1591
         QUICK_APP,

@@ -7,13 +7,13 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum AudiencePackageCreateV2DeviceType
     {
-        [EnumMember(Value = "MOBILE")]
-        #pragma warning disable CS1591
-        MOBILE,
-        #pragma warning restore CS1591
         [EnumMember(Value = "PAD")]
         #pragma warning disable CS1591
         PAD,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "MOBILE")]
+        #pragma warning disable CS1591
+        MOBILE,
         #pragma warning restore CS1591
     }
 }

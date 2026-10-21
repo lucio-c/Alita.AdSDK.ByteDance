@@ -11,13 +11,13 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         CALL_TO_ACTION,
         #pragma warning restore CS1591
-        [EnumMember(Value = "PROMOTION")]
-        #pragma warning disable CS1591
-        PROMOTION,
-        #pragma warning restore CS1591
         [EnumMember(Value = "CARD_TITLE")]
         #pragma warning disable CS1591
         CARD_TITLE,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "PROMOTION")]
+        #pragma warning disable CS1591
+        PROMOTION,
         #pragma warning restore CS1591
     }
 }

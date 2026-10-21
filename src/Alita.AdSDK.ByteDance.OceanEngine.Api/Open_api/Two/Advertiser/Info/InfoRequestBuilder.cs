@@ -22,7 +22,7 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.Two.Advertiser.Info
         /// </summary>
         /// <param name="pathParameters">路径参数。</param>
         /// <param name="requestAdapter">发送请求的适配器。</param>
-        public InfoRequestBuilder(Dictionary<string, object> pathParameters, IRequestAdapter requestAdapter) : base(requestAdapter, "{+baseurl}/open_api/2/advertiser/info{?advertiser_ids*,fields*}", pathParameters)
+        public InfoRequestBuilder(Dictionary<string, object> pathParameters, IRequestAdapter requestAdapter) : base(requestAdapter, "{+baseurl}/open_api/2/advertiser/info{?advertiser_ids*,fields*,is_search_agent*}", pathParameters)
         {
         }
         /// <summary>
@@ -30,7 +30,7 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.Two.Advertiser.Info
         /// </summary>
         /// <param name="rawUrl">原始 URL。使用后会忽略其它路径和查询参数。</param>
         /// <param name="requestAdapter">发送请求的适配器。</param>
-        public InfoRequestBuilder(string rawUrl, IRequestAdapter requestAdapter) : base(requestAdapter, "{+baseurl}/open_api/2/advertiser/info{?advertiser_ids*,fields*}", rawUrl)
+        public InfoRequestBuilder(string rawUrl, IRequestAdapter requestAdapter) : base(requestAdapter, "{+baseurl}/open_api/2/advertiser/info{?advertiser_ids*,fields*,is_search_agent*}", rawUrl)
         {
         }
         /// <summary>
@@ -105,6 +105,10 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.Two.Advertiser.Info
             [QueryParameter("fields")]
             public string Fields { get; set; }
 #endif
+            #pragma warning disable CS1591
+            [QueryParameter("is_search_agent")]
+            public bool? IsSearchAgent { get; set; }
+            #pragma warning restore CS1591
         }
         /// <summary>
         /// 请求配置，可设置请求头、查询参数和中间件选项。

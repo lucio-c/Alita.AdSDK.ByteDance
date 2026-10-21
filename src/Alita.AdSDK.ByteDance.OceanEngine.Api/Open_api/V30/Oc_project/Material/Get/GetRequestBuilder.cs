@@ -22,7 +22,7 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Oc_project.Material
         /// </summary>
         /// <param name="pathParameters">路径参数。</param>
         /// <param name="requestAdapter">发送请求的适配器。</param>
-        public GetRequestBuilder(Dictionary<string, object> pathParameters, IRequestAdapter requestAdapter) : base(requestAdapter, "{+baseurl}/open_api/v3.0/oc_project/material/get?advertiser_id={advertiser_id}&filtering={filtering}&project_id={project_id}{&page*,page_size*}", pathParameters)
+        public GetRequestBuilder(Dictionary<string, object> pathParameters, IRequestAdapter requestAdapter) : base(requestAdapter, "{+baseurl}/open_api/v3.0/oc_project/material/get?advertiser_id={advertiser_id}&filtering={filtering}&project_id={project_id}{&count*,cursor*,page*,page_size*}", pathParameters)
         {
         }
         /// <summary>
@@ -30,7 +30,7 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Oc_project.Material
         /// </summary>
         /// <param name="rawUrl">原始 URL。使用后会忽略其它路径和查询参数。</param>
         /// <param name="requestAdapter">发送请求的适配器。</param>
-        public GetRequestBuilder(string rawUrl, IRequestAdapter requestAdapter) : base(requestAdapter, "{+baseurl}/open_api/v3.0/oc_project/material/get?advertiser_id={advertiser_id}&filtering={filtering}&project_id={project_id}{&page*,page_size*}", rawUrl)
+        public GetRequestBuilder(string rawUrl, IRequestAdapter requestAdapter) : base(requestAdapter, "{+baseurl}/open_api/v3.0/oc_project/material/get?advertiser_id={advertiser_id}&filtering={filtering}&project_id={project_id}{&count*,cursor*,page*,page_size*}", rawUrl)
         {
         }
         /// <summary>
@@ -88,6 +88,12 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Oc_project.Material
             /// <summary>广告主 ID</summary>
             [QueryParameter("advertiser_id")]
             public long? AdvertiserId { get; set; }
+            /// <summary>游标分页每页数据量，取值范围 1-100；cursor 已传且 count 缺省时按 10 处理。</summary>
+            [QueryParameter("count")]
+            public long? Count { get; set; }
+            /// <summary>页码游标值。首次拉取传 0；与 page 同时传入时 cursor 优先。</summary>
+            [QueryParameter("cursor")]
+            public long? Cursor { get; set; }
             /// <summary>过滤器</summary>
 #if NETSTANDARD2_1_OR_GREATER || NETCOREAPP3_1_OR_GREATER
 #nullable enable

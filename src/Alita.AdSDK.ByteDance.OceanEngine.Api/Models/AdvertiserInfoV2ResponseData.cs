@@ -22,6 +22,16 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
 #else
         public string Address { get; set; }
 #endif
+        /// <summary>The agent_id property</summary>
+        public long? AgentId { get; set; }
+        /// <summary>The agent_name property</summary>
+#if NETSTANDARD2_1_OR_GREATER || NETCOREAPP3_1_OR_GREATER
+#nullable enable
+        public string? AgentName { get; set; }
+#nullable restore
+#else
+        public string AgentName { get; set; }
+#endif
         /// <summary>The brand property</summary>
 #if NETSTANDARD2_1_OR_GREATER || NETCOREAPP3_1_OR_GREATER
 #nullable enable
@@ -176,12 +186,14 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         /// <summary>
         /// 当前模型的反序列化字段映射。
         /// </summary>
-        /// <returns>IDictionary&lt;string, Action&lt;IParseNode&gt;&gt;</returns>
+        /// <returns>返回 IDictionary&lt;string, Action&lt;IParseNode&gt;&gt;</returns>
         public virtual IDictionary<string, Action<IParseNode>> GetFieldDeserializers()
         {
             return new Dictionary<string, Action<IParseNode>>
             {
                 { "address", n => { Address = n.GetStringValue(); } },
+                { "agent_id", n => { AgentId = n.GetLongValue(); } },
+                { "agent_name", n => { AgentName = n.GetStringValue(); } },
                 { "brand", n => { Brand = n.GetStringValue(); } },
                 { "company", n => { Company = n.GetStringValue(); } },
                 { "create_time", n => { CreateTime = n.GetStringValue(); } },
@@ -211,6 +223,8 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         {
             if(ReferenceEquals(writer, null)) throw new ArgumentNullException(nameof(writer));
             writer.WriteStringValue("address", Address);
+            writer.WriteLongValue("agent_id", AgentId);
+            writer.WriteStringValue("agent_name", AgentName);
             writer.WriteStringValue("brand", Brand);
             writer.WriteStringValue("company", Company);
             writer.WriteStringValue("create_time", CreateTime);

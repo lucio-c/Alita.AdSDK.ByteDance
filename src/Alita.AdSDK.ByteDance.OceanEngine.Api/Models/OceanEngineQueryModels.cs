@@ -201,6 +201,30 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         public long? BrandCreativeGetV30CreativeStatus { get; set; }
         /// <summary>BrandKnowledgeQaGetV30BusinessType</summary>
         public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.BrandKnowledgeQaGetV30BusinessType? BrandKnowledgeQaGetV30BusinessType { get; set; }
+        /// <summary>The BrandMaMaterialListV30OrderFilter property</summary>
+#if NETSTANDARD2_1_OR_GREATER || NETCOREAPP3_1_OR_GREATER
+#nullable enable
+        public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.BrandMaMaterialListV30OrderFilter? BrandMaMaterialListV30OrderFilter { get; set; }
+#nullable restore
+#else
+        public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.BrandMaMaterialListV30OrderFilter BrandMaMaterialListV30OrderFilter { get; set; }
+#endif
+        /// <summary>The BrandMaMaterialListV30Page property</summary>
+#if NETSTANDARD2_1_OR_GREATER || NETCOREAPP3_1_OR_GREATER
+#nullable enable
+        public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.BrandMaMaterialListV30Page? BrandMaMaterialListV30Page { get; set; }
+#nullable restore
+#else
+        public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.BrandMaMaterialListV30Page BrandMaMaterialListV30Page { get; set; }
+#endif
+        /// <summary>The BrandMaOrderListV30Page property</summary>
+#if NETSTANDARD2_1_OR_GREATER || NETCOREAPP3_1_OR_GREATER
+#nullable enable
+        public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.BrandMaOrderListV30Page? BrandMaOrderListV30Page { get; set; }
+#nullable restore
+#else
+        public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.BrandMaOrderListV30Page BrandMaOrderListV30Page { get; set; }
+#endif
         /// <summary>The BrandMaterialListV30CampaignFilter property</summary>
 #if NETSTANDARD2_1_OR_GREATER || NETCOREAPP3_1_OR_GREATER
 #nullable enable
@@ -741,6 +765,10 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
 #endif
         /// <summary>EbpAdvBindGroupGetV30QueryType</summary>
         public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.EbpAdvBindGroupGetV30QueryType? EbpAdvBindGroupGetV30QueryType { get; set; }
+        /// <summary>EbpAdvertiserAllListV30AccountType</summary>
+        public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.EbpAdvertiserAllListV30AccountType? EbpAdvertiserAllListV30AccountType { get; set; }
+        /// <summary>EbpAdvertiserAllListV30QueryType</summary>
+        public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.EbpAdvertiserAllListV30QueryType? EbpAdvertiserAllListV30QueryType { get; set; }
         /// <summary>EbpAdvertiserListV2AccountSource</summary>
         public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.EbpAdvertiserListV2AccountSource? EbpAdvertiserListV2AccountSource { get; set; }
         /// <summary>The EbpAdvertiserListV2Filtering property</summary>
@@ -3633,7 +3661,7 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         /// <summary>
         /// 当前模型的反序列化字段映射。
         /// </summary>
-        /// <returns>IDictionary&lt;string, Action&lt;IParseNode&gt;&gt;</returns>
+        /// <returns>返回 IDictionary&lt;string, Action&lt;IParseNode&gt;&gt;</returns>
         public virtual IDictionary<string, Action<IParseNode>> GetFieldDeserializers()
         {
             return new Dictionary<string, Action<IParseNode>>
@@ -3680,6 +3708,9 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
                 { "BrandCampaignListV30PageInfo", n => { BrandCampaignListV30PageInfo = n.GetObjectValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.BrandCampaignListV30PageInfo>(global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.BrandCampaignListV30PageInfo.CreateFromDiscriminatorValue); } },
                 { "BrandCreativeGetV30CreativeStatus", n => { BrandCreativeGetV30CreativeStatus = n.GetLongValue(); } },
                 { "BrandKnowledgeQaGetV30BusinessType", n => { BrandKnowledgeQaGetV30BusinessType = n.GetEnumValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.BrandKnowledgeQaGetV30BusinessType>(); } },
+                { "BrandMaMaterialListV30OrderFilter", n => { BrandMaMaterialListV30OrderFilter = n.GetObjectValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.BrandMaMaterialListV30OrderFilter>(global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.BrandMaMaterialListV30OrderFilter.CreateFromDiscriminatorValue); } },
+                { "BrandMaMaterialListV30Page", n => { BrandMaMaterialListV30Page = n.GetObjectValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.BrandMaMaterialListV30Page>(global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.BrandMaMaterialListV30Page.CreateFromDiscriminatorValue); } },
+                { "BrandMaOrderListV30Page", n => { BrandMaOrderListV30Page = n.GetObjectValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.BrandMaOrderListV30Page>(global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.BrandMaOrderListV30Page.CreateFromDiscriminatorValue); } },
                 { "BrandMaterialListV30CampaignFilter", n => { BrandMaterialListV30CampaignFilter = n.GetObjectValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.BrandMaterialListV30CampaignFilter>(global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.BrandMaterialListV30CampaignFilter.CreateFromDiscriminatorValue); } },
                 { "BrandMaterialListV30MaterialStatus", n => { BrandMaterialListV30MaterialStatus = n.GetEnumValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.BrandMaterialListV30MaterialStatus>(); } },
                 { "BrandMaterialListV30OrderFilter", n => { BrandMaterialListV30OrderFilter = n.GetObjectValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.BrandMaterialListV30OrderFilter>(global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.BrandMaterialListV30OrderFilter.CreateFromDiscriminatorValue); } },
@@ -3815,6 +3846,8 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
                 { "DpaProductDetailGetV2Filtering", n => { DpaProductDetailGetV2Filtering = n.GetObjectValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.DpaProductDetailGetV2Filtering>(global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.DpaProductDetailGetV2Filtering.CreateFromDiscriminatorValue); } },
                 { "DpaVideoGetV2Filtering", n => { DpaVideoGetV2Filtering = n.GetObjectValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.DpaVideoGetV2Filtering>(global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.DpaVideoGetV2Filtering.CreateFromDiscriminatorValue); } },
                 { "EbpAdvBindGroupGetV30QueryType", n => { EbpAdvBindGroupGetV30QueryType = n.GetEnumValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.EbpAdvBindGroupGetV30QueryType>(); } },
+                { "EbpAdvertiserAllListV30AccountType", n => { EbpAdvertiserAllListV30AccountType = n.GetEnumValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.EbpAdvertiserAllListV30AccountType>(); } },
+                { "EbpAdvertiserAllListV30QueryType", n => { EbpAdvertiserAllListV30QueryType = n.GetEnumValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.EbpAdvertiserAllListV30QueryType>(); } },
                 { "EbpAdvertiserListV2AccountSource", n => { EbpAdvertiserListV2AccountSource = n.GetEnumValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.EbpAdvertiserListV2AccountSource>(); } },
                 { "EbpAdvertiserListV2Filtering", n => { EbpAdvertiserListV2Filtering = n.GetObjectValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.EbpAdvertiserListV2Filtering>(global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.EbpAdvertiserListV2Filtering.CreateFromDiscriminatorValue); } },
                 { "EbpTaskInfoGetV30Filter", n => { EbpTaskInfoGetV30Filter = n.GetObjectValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.EbpTaskInfoGetV30Filter>(global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.EbpTaskInfoGetV30Filter.CreateFromDiscriminatorValue); } },
@@ -4630,6 +4663,9 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
             writer.WriteObjectValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.BrandCampaignListV30PageInfo>("BrandCampaignListV30PageInfo", BrandCampaignListV30PageInfo);
             writer.WriteLongValue("BrandCreativeGetV30CreativeStatus", BrandCreativeGetV30CreativeStatus);
             writer.WriteEnumValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.BrandKnowledgeQaGetV30BusinessType>("BrandKnowledgeQaGetV30BusinessType", BrandKnowledgeQaGetV30BusinessType);
+            writer.WriteObjectValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.BrandMaMaterialListV30OrderFilter>("BrandMaMaterialListV30OrderFilter", BrandMaMaterialListV30OrderFilter);
+            writer.WriteObjectValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.BrandMaMaterialListV30Page>("BrandMaMaterialListV30Page", BrandMaMaterialListV30Page);
+            writer.WriteObjectValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.BrandMaOrderListV30Page>("BrandMaOrderListV30Page", BrandMaOrderListV30Page);
             writer.WriteObjectValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.BrandMaterialListV30CampaignFilter>("BrandMaterialListV30CampaignFilter", BrandMaterialListV30CampaignFilter);
             writer.WriteEnumValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.BrandMaterialListV30MaterialStatus>("BrandMaterialListV30MaterialStatus", BrandMaterialListV30MaterialStatus);
             writer.WriteObjectValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.BrandMaterialListV30OrderFilter>("BrandMaterialListV30OrderFilter", BrandMaterialListV30OrderFilter);
@@ -4765,6 +4801,8 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
             writer.WriteObjectValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.DpaProductDetailGetV2Filtering>("DpaProductDetailGetV2Filtering", DpaProductDetailGetV2Filtering);
             writer.WriteObjectValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.DpaVideoGetV2Filtering>("DpaVideoGetV2Filtering", DpaVideoGetV2Filtering);
             writer.WriteEnumValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.EbpAdvBindGroupGetV30QueryType>("EbpAdvBindGroupGetV30QueryType", EbpAdvBindGroupGetV30QueryType);
+            writer.WriteEnumValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.EbpAdvertiserAllListV30AccountType>("EbpAdvertiserAllListV30AccountType", EbpAdvertiserAllListV30AccountType);
+            writer.WriteEnumValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.EbpAdvertiserAllListV30QueryType>("EbpAdvertiserAllListV30QueryType", EbpAdvertiserAllListV30QueryType);
             writer.WriteEnumValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.EbpAdvertiserListV2AccountSource>("EbpAdvertiserListV2AccountSource", EbpAdvertiserListV2AccountSource);
             writer.WriteObjectValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.EbpAdvertiserListV2Filtering>("EbpAdvertiserListV2Filtering", EbpAdvertiserListV2Filtering);
             writer.WriteObjectValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.EbpTaskInfoGetV30Filter>("EbpTaskInfoGetV30Filter", EbpTaskInfoGetV30Filter);

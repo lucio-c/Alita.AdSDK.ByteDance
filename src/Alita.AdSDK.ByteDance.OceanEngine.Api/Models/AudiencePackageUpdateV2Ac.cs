@@ -7,21 +7,21 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum AudiencePackageUpdateV2Ac
     {
-        [EnumMember(Value = "3G")]
+        [EnumMember(Value = "5G")]
         #pragma warning disable CS1591
-        ThreeG,
+        FiveG,
         #pragma warning restore CS1591
         [EnumMember(Value = "4G")]
         #pragma warning disable CS1591
         FourG,
         #pragma warning restore CS1591
+        [EnumMember(Value = "3G")]
+        #pragma warning disable CS1591
+        ThreeG,
+        #pragma warning restore CS1591
         [EnumMember(Value = "WIFI")]
         #pragma warning disable CS1591
         WIFI,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "5G")]
-        #pragma warning disable CS1591
-        FiveG,
         #pragma warning restore CS1591
         [EnumMember(Value = "2G")]
         #pragma warning disable CS1591

@@ -7,6 +7,18 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ToolsAppIosListV2FilteringStatus
     {
+        [EnumMember(Value = "ALL")]
+        #pragma warning disable CS1591
+        ALL,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "AUDIT_ACCEPTED")]
+        #pragma warning disable CS1591
+        AUDIT_ACCEPTED,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "AUDIT_DOING")]
+        #pragma warning disable CS1591
+        AUDIT_DOING,
+        #pragma warning restore CS1591
         [EnumMember(Value = "AUDIT_REJECTED")]
         #pragma warning disable CS1591
         AUDIT_REJECTED,
@@ -14,18 +26,6 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         [EnumMember(Value = "ENABLE")]
         #pragma warning disable CS1591
         ENABLE,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "AUDIT_DOING")]
-        #pragma warning disable CS1591
-        AUDIT_DOING,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "AUDIT_ACCEPTED")]
-        #pragma warning disable CS1591
-        AUDIT_ACCEPTED,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "ALL")]
-        #pragma warning disable CS1591
-        ALL,
         #pragma warning restore CS1591
     }
 }

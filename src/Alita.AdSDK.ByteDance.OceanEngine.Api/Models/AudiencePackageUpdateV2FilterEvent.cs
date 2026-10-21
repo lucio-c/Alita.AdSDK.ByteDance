@@ -7,14 +7,6 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum AudiencePackageUpdateV2FilterEvent
     {
-        [EnumMember(Value = "AD_CONVERT_EXTERNAL_ACTION")]
-        #pragma warning disable CS1591
-        AD_CONVERT_EXTERNAL_ACTION,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "AD_CONVERT_TYPE_ACTIVE_REGISTER")]
-        #pragma warning disable CS1591
-        AD_CONVERT_TYPE_ACTIVE_REGISTER,
-        #pragma warning restore CS1591
         [EnumMember(Value = "AD_CONVERT_TYPE_PAY")]
         #pragma warning disable CS1591
         AD_CONVERT_TYPE_PAY,
@@ -22,6 +14,14 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         [EnumMember(Value = "AD_CONVERT_TYPE_ACTIVE")]
         #pragma warning disable CS1591
         AD_CONVERT_TYPE_ACTIVE,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "AD_CONVERT_EXTERNAL_ACTION")]
+        #pragma warning disable CS1591
+        AD_CONVERT_EXTERNAL_ACTION,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "AD_CONVERT_TYPE_ACTIVE_REGISTER")]
+        #pragma warning disable CS1591
+        AD_CONVERT_TYPE_ACTIVE_REGISTER,
         #pragma warning restore CS1591
     }
 }

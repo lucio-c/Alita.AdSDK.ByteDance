@@ -7,42 +7,6 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum AudiencePackageCreateV2LandingType
     {
-        [EnumMember(Value = "SHOP")]
-        #pragma warning disable CS1591
-        SHOP,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "EXTERNAL")]
-        #pragma warning disable CS1591
-        EXTERNAL,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "MICRO_GAME")]
-        #pragma warning disable CS1591
-        MICRO_GAME,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "APP_HARMONY")]
-        #pragma warning disable CS1591
-        APP_HARMONY,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "APP_ANDROID")]
-        #pragma warning disable CS1591
-        APP_ANDROID,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "AWEME")]
-        #pragma warning disable CS1591
-        AWEME,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "DPA")]
-        #pragma warning disable CS1591
-        DPA,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "QUICK_APP")]
-        #pragma warning disable CS1591
-        QUICK_APP,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "APP_IOS")]
-        #pragma warning disable CS1591
-        APP_IOS,
-        #pragma warning restore CS1591
         [EnumMember(Value = "LIVE")]
         #pragma warning disable CS1591
         LIVE,
@@ -51,9 +15,45 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         ARTICLE,
         #pragma warning restore CS1591
+        [EnumMember(Value = "EXTERNAL")]
+        #pragma warning disable CS1591
+        EXTERNAL,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "APP_HARMONY")]
+        #pragma warning disable CS1591
+        APP_HARMONY,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "SHOP")]
+        #pragma warning disable CS1591
+        SHOP,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "MICRO_GAME")]
+        #pragma warning disable CS1591
+        MICRO_GAME,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "QUICK_APP")]
+        #pragma warning disable CS1591
+        QUICK_APP,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "DPA")]
+        #pragma warning disable CS1591
+        DPA,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "APP_ANDROID")]
+        #pragma warning disable CS1591
+        APP_ANDROID,
+        #pragma warning restore CS1591
         [EnumMember(Value = "STORE")]
         #pragma warning disable CS1591
         STORE,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "APP_IOS")]
+        #pragma warning disable CS1591
+        APP_IOS,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "AWEME")]
+        #pragma warning disable CS1591
+        AWEME,
         #pragma warning restore CS1591
         [EnumMember(Value = "GOODS")]
         #pragma warning disable CS1591

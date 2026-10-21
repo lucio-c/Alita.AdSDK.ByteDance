@@ -7,25 +7,13 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ReportCreativeGetV2FilteringStatus
     {
-        [EnumMember(Value = "CREATIVE_STATUS_DELETE")]
+        [EnumMember(Value = "CREATIVE_STATUS_AD_AUDIT")]
         #pragma warning disable CS1591
-        CREATIVE_STATUS_DELETE,
+        CREATIVE_STATUS_AD_AUDIT,
         #pragma warning restore CS1591
-        [EnumMember(Value = "CREATIVE_STATUS_ALL")]
+        [EnumMember(Value = "CREATIVE_STATUS_AD_REAUDIT")]
         #pragma warning disable CS1591
-        CREATIVE_STATUS_ALL,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "CREATIVE_STATUS_NOT_START")]
-        #pragma warning disable CS1591
-        CREATIVE_STATUS_NOT_START,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "CREATIVE_STATUS_DONE")]
-        #pragma warning disable CS1591
-        CREATIVE_STATUS_DONE,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "CREATIVE_STATUS_DELIVERY_OK")]
-        #pragma warning disable CS1591
-        CREATIVE_STATUS_DELIVERY_OK,
+        CREATIVE_STATUS_AD_REAUDIT,
         #pragma warning restore CS1591
         [EnumMember(Value = "CREATIVE_STATUS_AD_DISABLE")]
         #pragma warning disable CS1591
@@ -39,6 +27,22 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         CREATIVE_STATUS_REAUDIT,
         #pragma warning restore CS1591
+        [EnumMember(Value = "CREATIVE_STATUS_DONE")]
+        #pragma warning disable CS1591
+        CREATIVE_STATUS_DONE,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "CREATIVE_STATUS_NO_SCHEDULE")]
+        #pragma warning disable CS1591
+        CREATIVE_STATUS_NO_SCHEDULE,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "CREATIVE_STATUS_NOT_START")]
+        #pragma warning disable CS1591
+        CREATIVE_STATUS_NOT_START,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "CREATIVE_STATUS_AD_AUDIT_DENY")]
+        #pragma warning disable CS1591
+        CREATIVE_STATUS_AD_AUDIT_DENY,
+        #pragma warning restore CS1591
         [EnumMember(Value = "CREATIVE_STATUS_CAMPAIGN_DISABLE")]
         #pragma warning disable CS1591
         CREATIVE_STATUS_CAMPAIGN_DISABLE,
@@ -47,41 +51,37 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         CREATIVE_STATUS_BUDGET_EXCEED,
         #pragma warning restore CS1591
+        [EnumMember(Value = "CREATIVE_STATUS_BALANCE_EXCEED")]
+        #pragma warning disable CS1591
+        CREATIVE_STATUS_BALANCE_EXCEED,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "CREATIVE_STATUS_DELETE")]
+        #pragma warning disable CS1591
+        CREATIVE_STATUS_DELETE,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "CREATIVE_STATUS_DELIVERY_OK")]
+        #pragma warning disable CS1591
+        CREATIVE_STATUS_DELIVERY_OK,
+        #pragma warning restore CS1591
         [EnumMember(Value = "CREATIVE_STATUS_CAMPAIGN_EXCEED")]
         #pragma warning disable CS1591
         CREATIVE_STATUS_CAMPAIGN_EXCEED,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "CREATIVE_STATUS_AD_AUDIT_DENY")]
-        #pragma warning disable CS1591
-        CREATIVE_STATUS_AD_AUDIT_DENY,
         #pragma warning restore CS1591
         [EnumMember(Value = "CREATIVE_STATUS_NOT_DELETE")]
         #pragma warning disable CS1591
         CREATIVE_STATUS_NOT_DELETE,
         #pragma warning restore CS1591
-        [EnumMember(Value = "CREATIVE_STATUS_AD_REAUDIT")]
-        #pragma warning disable CS1591
-        CREATIVE_STATUS_AD_REAUDIT,
-        #pragma warning restore CS1591
         [EnumMember(Value = "CREATIVE_STATUS_AUDIT_DENY")]
         #pragma warning disable CS1591
         CREATIVE_STATUS_AUDIT_DENY,
         #pragma warning restore CS1591
-        [EnumMember(Value = "CREATIVE_STATUS_NO_SCHEDULE")]
+        [EnumMember(Value = "CREATIVE_STATUS_ALL")]
         #pragma warning disable CS1591
-        CREATIVE_STATUS_NO_SCHEDULE,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "CREATIVE_STATUS_AD_AUDIT")]
-        #pragma warning disable CS1591
-        CREATIVE_STATUS_AD_AUDIT,
+        CREATIVE_STATUS_ALL,
         #pragma warning restore CS1591
         [EnumMember(Value = "CREATIVE_STATUS_AUDIT")]
         #pragma warning disable CS1591
         CREATIVE_STATUS_AUDIT,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "CREATIVE_STATUS_BALANCE_EXCEED")]
-        #pragma warning disable CS1591
-        CREATIVE_STATUS_BALANCE_EXCEED,
         #pragma warning restore CS1591
     }
 }

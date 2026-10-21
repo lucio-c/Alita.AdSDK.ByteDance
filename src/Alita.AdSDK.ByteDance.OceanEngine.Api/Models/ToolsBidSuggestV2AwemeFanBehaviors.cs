@@ -7,49 +7,49 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ToolsBidSuggestV2AwemeFanBehaviors
     {
-        [EnumMember(Value = "LIVE_GOODS_CLICK")]
-        #pragma warning disable CS1591
-        LIVE_GOODS_CLICK,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "COMMENTED_USER")]
-        #pragma warning disable CS1591
-        COMMENTED_USER,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "GOODS_CARTS_CLICK")]
-        #pragma warning disable CS1591
-        GOODS_CARTS_CLICK,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "FOLLOWED_USER")]
-        #pragma warning disable CS1591
-        FOLLOWED_USER,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "LIVE_COMMENT")]
-        #pragma warning disable CS1591
-        LIVE_COMMENT,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "LIVE_EFFECTIVE_WATCH")]
-        #pragma warning disable CS1591
-        LIVE_EFFECTIVE_WATCH,
-        #pragma warning restore CS1591
         [EnumMember(Value = "LIVE_EXCEPTIONAL")]
         #pragma warning disable CS1591
         LIVE_EXCEPTIONAL,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "LIVE_WATCH")]
-        #pragma warning disable CS1591
-        LIVE_WATCH,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "SHARED_USER")]
-        #pragma warning disable CS1591
-        SHARED_USER,
         #pragma warning restore CS1591
         [EnumMember(Value = "GOODS_CARTS_ORDER")]
         #pragma warning disable CS1591
         GOODS_CARTS_ORDER,
         #pragma warning restore CS1591
+        [EnumMember(Value = "COMMENTED_USER")]
+        #pragma warning disable CS1591
+        COMMENTED_USER,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "LIVE_GOODS_CLICK")]
+        #pragma warning disable CS1591
+        LIVE_GOODS_CLICK,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "FOLLOWED_USER")]
+        #pragma warning disable CS1591
+        FOLLOWED_USER,
+        #pragma warning restore CS1591
         [EnumMember(Value = "LIKED_USER")]
         #pragma warning disable CS1591
         LIKED_USER,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "GOODS_CARTS_CLICK")]
+        #pragma warning disable CS1591
+        GOODS_CARTS_CLICK,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "LIVE_EFFECTIVE_WATCH")]
+        #pragma warning disable CS1591
+        LIVE_EFFECTIVE_WATCH,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "SHARED_USER")]
+        #pragma warning disable CS1591
+        SHARED_USER,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "LIVE_COMMENT")]
+        #pragma warning disable CS1591
+        LIVE_COMMENT,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "LIVE_WATCH")]
+        #pragma warning disable CS1591
+        LIVE_WATCH,
         #pragma warning restore CS1591
         [EnumMember(Value = "LIVE_GOODS_ORDER")]
         #pragma warning disable CS1591

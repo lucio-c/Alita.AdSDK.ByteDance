@@ -7,21 +7,21 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum CustomerCenterAdvertiserListV2AccountSource
     {
-        [EnumMember(Value = "AD")]
+        [EnumMember(Value = "ENTERPRISE")]
         #pragma warning disable CS1591
-        AD,
+        ENTERPRISE,
         #pragma warning restore CS1591
         [EnumMember(Value = "QIANCHUAN")]
         #pragma warning disable CS1591
         QIANCHUAN,
         #pragma warning restore CS1591
+        [EnumMember(Value = "AD")]
+        #pragma warning disable CS1591
+        AD,
+        #pragma warning restore CS1591
         [EnumMember(Value = "LOCAL")]
         #pragma warning disable CS1591
         LOCAL,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "ENTERPRISE")]
-        #pragma warning disable CS1591
-        ENTERPRISE,
         #pragma warning restore CS1591
     }
 }

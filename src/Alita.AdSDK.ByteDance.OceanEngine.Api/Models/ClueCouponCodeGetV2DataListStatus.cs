@@ -7,25 +7,25 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ClueCouponCodeGetV2DataListStatus
     {
-        [EnumMember(Value = "EXPIRED")]
+        [EnumMember(Value = "VALID")]
         #pragma warning disable CS1591
-        EXPIRED,
+        VALID,
         #pragma warning restore CS1591
         [EnumMember(Value = "ABANDONED")]
         #pragma warning disable CS1591
         ABANDONED,
         #pragma warning restore CS1591
-        [EnumMember(Value = "USED")]
-        #pragma warning disable CS1591
-        USED,
-        #pragma warning restore CS1591
         [EnumMember(Value = "INVALID")]
         #pragma warning disable CS1591
         INVALID,
         #pragma warning restore CS1591
-        [EnumMember(Value = "VALID")]
+        [EnumMember(Value = "EXPIRED")]
         #pragma warning disable CS1591
-        VALID,
+        EXPIRED,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "USED")]
+        #pragma warning disable CS1591
+        USED,
         #pragma warning restore CS1591
     }
 }

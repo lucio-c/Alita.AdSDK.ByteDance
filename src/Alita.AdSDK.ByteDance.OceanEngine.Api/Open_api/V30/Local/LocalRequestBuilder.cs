@@ -12,6 +12,7 @@ using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Local.Charge;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Local.Consult_awame_list;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Local.Custom_audience;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Local.Delivery_qualification;
+using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Local.Diagnosis_result;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Local.FileNamespace;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Local.Im;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Local.Im_auto_setting;
@@ -105,6 +106,11 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Local
         public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Local.Delivery_qualification.Delivery_qualificationRequestBuilder Delivery_qualification
         {
             get => new global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Local.Delivery_qualification.Delivery_qualificationRequestBuilder(PathParameters, RequestAdapter);
+        }
+        /// <summary>The diagnosis_result property</summary>
+        public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Local.Diagnosis_result.Diagnosis_resultRequestBuilder Diagnosis_result
+        {
+            get => new global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Local.Diagnosis_result.Diagnosis_resultRequestBuilder(PathParameters, RequestAdapter);
         }
         /// <summary>The file property</summary>
         public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Local.FileNamespace.FileRequestBuilder File

@@ -7,21 +7,13 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum AdGetV2DataDeepBidType
     {
-        [EnumMember(Value = "AUTO_MIN_SECOND_STAGE")]
+        [EnumMember(Value = "ROI_PACING")]
         #pragma warning disable CS1591
-        AUTO_MIN_SECOND_STAGE,
+        ROI_PACING,
         #pragma warning restore CS1591
-        [EnumMember(Value = "BID_PER_ACTION")]
+        [EnumMember(Value = "MIN_SECOND_STAGE")]
         #pragma warning disable CS1591
-        BID_PER_ACTION,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "DEEP_BID_TYPE_RETENTION_DAYS")]
-        #pragma warning disable CS1591
-        DEEP_BID_TYPE_RETENTION_DAYS,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "DEEP_BID_PACING")]
-        #pragma warning disable CS1591
-        DEEP_BID_PACING,
+        MIN_SECOND_STAGE,
         #pragma warning restore CS1591
         [EnumMember(Value = "SMARTBID")]
         #pragma warning disable CS1591
@@ -31,37 +23,45 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         DEEP_BID_DEFAULT,
         #pragma warning restore CS1591
-        [EnumMember(Value = "ROI_DIRECT_MAIL")]
+        [EnumMember(Value = "AUTO_MIN_SECOND_STAGE")]
         #pragma warning disable CS1591
-        ROI_DIRECT_MAIL,
+        AUTO_MIN_SECOND_STAGE,
         #pragma warning restore CS1591
-        [EnumMember(Value = "ROI_PACING")]
+        [EnumMember(Value = "DEEP_BID_PACING")]
         #pragma warning disable CS1591
-        ROI_PACING,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "MIN_SECOND_STAGE")]
-        #pragma warning disable CS1591
-        MIN_SECOND_STAGE,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "ALI_FL")]
-        #pragma warning disable CS1591
-        ALI_FL,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "DEEP_BID_MIN")]
-        #pragma warning disable CS1591
-        DEEP_BID_MIN,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "PACING_SECOND_STAGE")]
-        #pragma warning disable CS1591
-        PACING_SECOND_STAGE,
+        DEEP_BID_PACING,
         #pragma warning restore CS1591
         [EnumMember(Value = "ROI_COEFFICIENT")]
         #pragma warning disable CS1591
         ROI_COEFFICIENT,
         #pragma warning restore CS1591
+        [EnumMember(Value = "DEEP_BID_MIN")]
+        #pragma warning disable CS1591
+        DEEP_BID_MIN,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "BID_PER_ACTION")]
+        #pragma warning disable CS1591
+        BID_PER_ACTION,
+        #pragma warning restore CS1591
         [EnumMember(Value = "SOCIAL_ROI")]
         #pragma warning disable CS1591
         SOCIAL_ROI,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "ALI_FL")]
+        #pragma warning disable CS1591
+        ALI_FL,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "PACING_SECOND_STAGE")]
+        #pragma warning disable CS1591
+        PACING_SECOND_STAGE,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "DEEP_BID_TYPE_RETENTION_DAYS")]
+        #pragma warning disable CS1591
+        DEEP_BID_TYPE_RETENTION_DAYS,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "ROI_DIRECT_MAIL")]
+        #pragma warning disable CS1591
+        ROI_DIRECT_MAIL,
         #pragma warning restore CS1591
     }
 }

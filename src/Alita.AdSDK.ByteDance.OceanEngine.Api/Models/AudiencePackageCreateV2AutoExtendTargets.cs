@@ -7,29 +7,29 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum AudiencePackageCreateV2AutoExtendTargets
     {
-        [EnumMember(Value = "REGION")]
+        [EnumMember(Value = "INTEREST_TAG")]
         #pragma warning disable CS1591
-        REGION,
+        INTEREST_TAG,
         #pragma warning restore CS1591
         [EnumMember(Value = "AD_TAG")]
         #pragma warning disable CS1591
         AD_TAG,
         #pragma warning restore CS1591
+        [EnumMember(Value = "AGE")]
+        #pragma warning disable CS1591
+        AGE,
+        #pragma warning restore CS1591
         [EnumMember(Value = "CUSTOM_AUDIENCE")]
         #pragma warning disable CS1591
         CUSTOM_AUDIENCE,
         #pragma warning restore CS1591
-        [EnumMember(Value = "INTEREST_TAG")]
+        [EnumMember(Value = "REGION")]
         #pragma warning disable CS1591
-        INTEREST_TAG,
+        REGION,
         #pragma warning restore CS1591
         [EnumMember(Value = "GENDER")]
         #pragma warning disable CS1591
         GENDER,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "AGE")]
-        #pragma warning disable CS1591
-        AGE,
         #pragma warning restore CS1591
     }
 }

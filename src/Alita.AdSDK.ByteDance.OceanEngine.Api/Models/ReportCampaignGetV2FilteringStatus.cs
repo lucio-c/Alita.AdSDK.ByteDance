@@ -7,13 +7,9 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ReportCampaignGetV2FilteringStatus
     {
-        [EnumMember(Value = "CAMPAIGN_STATUS_DISABLE")]
+        [EnumMember(Value = "CAMPAIGN_STATUS_NOT_DELETE")]
         #pragma warning disable CS1591
-        CAMPAIGN_STATUS_DISABLE,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "CAMPAIGN_STATUS_ENABLE")]
-        #pragma warning disable CS1591
-        CAMPAIGN_STATUS_ENABLE,
+        CAMPAIGN_STATUS_NOT_DELETE,
         #pragma warning restore CS1591
         [EnumMember(Value = "CAMPAIGN_STATUS_ADVERTISER_BUDGET_EXCEED")]
         #pragma warning disable CS1591
@@ -23,13 +19,17 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         CAMPAIGN_STATUS_DELETE,
         #pragma warning restore CS1591
-        [EnumMember(Value = "CAMPAIGN_STATUS_NOT_DELETE")]
+        [EnumMember(Value = "CAMPAIGN_STATUS_DISABLE")]
         #pragma warning disable CS1591
-        CAMPAIGN_STATUS_NOT_DELETE,
+        CAMPAIGN_STATUS_DISABLE,
         #pragma warning restore CS1591
         [EnumMember(Value = "CAMPAIGN_STATUS_ALL")]
         #pragma warning disable CS1591
         CAMPAIGN_STATUS_ALL,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "CAMPAIGN_STATUS_ENABLE")]
+        #pragma warning disable CS1591
+        CAMPAIGN_STATUS_ENABLE,
         #pragma warning restore CS1591
     }
 }

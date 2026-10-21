@@ -7,13 +7,13 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum DpaAssetsDetailReadV2DataListSource
     {
-        [EnumMember(Value = "AUTO")]
-        #pragma warning disable CS1591
-        AUTO,
-        #pragma warning restore CS1591
         [EnumMember(Value = "MANUAL")]
         #pragma warning disable CS1591
         MANUAL,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "AUTO")]
+        #pragma warning disable CS1591
+        AUTO,
         #pragma warning restore CS1591
     }
 }

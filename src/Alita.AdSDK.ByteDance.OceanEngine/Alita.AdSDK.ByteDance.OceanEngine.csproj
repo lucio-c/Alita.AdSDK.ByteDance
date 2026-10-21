@@ -5,7 +5,7 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<PackageId>Alita.AdSDK.ByteDance.OceanEngine</PackageId>
-		<Version>0.0.1</Version>
+		<Version>1.1.97</Version>
 		<Authors>Lucio</Authors>
 		<Description>巨量引擎 Marketing API 的 .NET 客户端，包含巨量千川。</Description>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>

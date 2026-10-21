@@ -7,13 +7,13 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ToolsPlayableCloudGameListV2FilteringAdStatus
     {
-        [EnumMember(Value = "DELETE")]
-        #pragma warning disable CS1591
-        DELETE,
-        #pragma warning restore CS1591
         [EnumMember(Value = "INUSE")]
         #pragma warning disable CS1591
         INUSE,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "DELETE")]
+        #pragma warning disable CS1591
+        DELETE,
         #pragma warning restore CS1591
         [EnumMember(Value = "UNUSED")]
         #pragma warning disable CS1591

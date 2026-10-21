@@ -7,21 +7,21 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ClueFormCreateV2ValidateType
     {
-        [EnumMember(Value = "ALL_VERIFICATION")]
+        [EnumMember(Value = "AUTO_VERIFICATION")]
         #pragma warning disable CS1591
-        ALL_VERIFICATION,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "NONE_VERIFICATION")]
-        #pragma warning disable CS1591
-        NONE_VERIFICATION,
+        AUTO_VERIFICATION,
         #pragma warning restore CS1591
         [EnumMember(Value = "VALIDITY_PRIORITY")]
         #pragma warning disable CS1591
         VALIDITY_PRIORITY,
         #pragma warning restore CS1591
-        [EnumMember(Value = "AUTO_VERIFICATION")]
+        [EnumMember(Value = "NONE_VERIFICATION")]
         #pragma warning disable CS1591
-        AUTO_VERIFICATION,
+        NONE_VERIFICATION,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "ALL_VERIFICATION")]
+        #pragma warning disable CS1591
+        ALL_VERIFICATION,
         #pragma warning restore CS1591
         [EnumMember(Value = "CLUE_PRIORITY")]
         #pragma warning disable CS1591

@@ -7,33 +7,9 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum AdGetV2DataInventoryType
     {
-        [EnumMember(Value = "INVENTORY_AWEME_FEED")]
+        [EnumMember(Value = "INVENTORY_HOTSOON_FEED")]
         #pragma warning disable CS1591
-        INVENTORY_AWEME_FEED,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "INVENTORY_UNION_SPLASH_SLOT")]
-        #pragma warning disable CS1591
-        INVENTORY_UNION_SPLASH_SLOT,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "INVENTORY_TEXT_LINK")]
-        #pragma warning disable CS1591
-        INVENTORY_TEXT_LINK,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "INVENTORY_VIDEO_FEED")]
-        #pragma warning disable CS1591
-        INVENTORY_VIDEO_FEED,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "INVENTORY_FEED")]
-        #pragma warning disable CS1591
-        INVENTORY_FEED,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "INVENTORY_SEARCH")]
-        #pragma warning disable CS1591
-        INVENTORY_SEARCH,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "INVENTORY_TOMATO_NOVEL")]
-        #pragma warning disable CS1591
-        INVENTORY_TOMATO_NOVEL,
+        INVENTORY_HOTSOON_FEED,
         #pragma warning restore CS1591
         [EnumMember(Value = "INVENTORY_ESSAY_FEED")]
         #pragma warning disable CS1591
@@ -43,17 +19,41 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         INVENTORY_AWEME_SEARCH,
         #pragma warning restore CS1591
-        [EnumMember(Value = "INVENTORY_HOTSOON_FEED")]
+        [EnumMember(Value = "INVENTORY_UNION_SPLASH_SLOT")]
         #pragma warning disable CS1591
-        INVENTORY_HOTSOON_FEED,
+        INVENTORY_UNION_SPLASH_SLOT,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "INVENTORY_VIDEO_FEED")]
+        #pragma warning disable CS1591
+        INVENTORY_VIDEO_FEED,
         #pragma warning restore CS1591
         [EnumMember(Value = "UNION_BOUTIQUE_GAME")]
         #pragma warning disable CS1591
         UNION_BOUTIQUE_GAME,
         #pragma warning restore CS1591
+        [EnumMember(Value = "INVENTORY_TEXT_LINK")]
+        #pragma warning disable CS1591
+        INVENTORY_TEXT_LINK,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "INVENTORY_TOMATO_NOVEL")]
+        #pragma warning disable CS1591
+        INVENTORY_TOMATO_NOVEL,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "INVENTORY_FEED")]
+        #pragma warning disable CS1591
+        INVENTORY_FEED,
+        #pragma warning restore CS1591
         [EnumMember(Value = "INVENTORY_UNION_SLOT")]
         #pragma warning disable CS1591
         INVENTORY_UNION_SLOT,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "INVENTORY_AWEME_FEED")]
+        #pragma warning disable CS1591
+        INVENTORY_AWEME_FEED,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "INVENTORY_SEARCH")]
+        #pragma warning disable CS1591
+        INVENTORY_SEARCH,
         #pragma warning restore CS1591
     }
 }

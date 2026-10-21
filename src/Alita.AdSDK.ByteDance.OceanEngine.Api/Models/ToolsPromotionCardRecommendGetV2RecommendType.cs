@@ -7,6 +7,10 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ToolsPromotionCardRecommendGetV2RecommendType
     {
+        [EnumMember(Value = "SELLING_POINTS")]
+        #pragma warning disable CS1591
+        SELLING_POINTS,
+        #pragma warning restore CS1591
         [EnumMember(Value = "PRODUCT_DESCRIPTION")]
         #pragma warning disable CS1591
         PRODUCT_DESCRIPTION,
@@ -14,10 +18,6 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         [EnumMember(Value = "CALL_TO_ACTION")]
         #pragma warning disable CS1591
         CALL_TO_ACTION,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "SELLING_POINTS")]
-        #pragma warning disable CS1591
-        SELLING_POINTS,
         #pragma warning restore CS1591
     }
 }

@@ -7,17 +7,17 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum AdGetV2DataAudienceInterestActionMode
     {
-        [EnumMember(Value = "UNLIMITED")]
+        [EnumMember(Value = "CUSTOM")]
         #pragma warning disable CS1591
-        UNLIMITED,
+        CUSTOM,
         #pragma warning restore CS1591
         [EnumMember(Value = "RECOMMEND")]
         #pragma warning disable CS1591
         RECOMMEND,
         #pragma warning restore CS1591
-        [EnumMember(Value = "CUSTOM")]
+        [EnumMember(Value = "UNLIMITED")]
         #pragma warning disable CS1591
-        CUSTOM,
+        UNLIMITED,
         #pragma warning restore CS1591
     }
 }

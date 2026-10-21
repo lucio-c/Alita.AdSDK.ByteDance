@@ -24,6 +24,8 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         public bool? ActiveAccount { get; set; }
         /// <summary>规范中未声明的额外字段。反序列化时会保留，序列化时也会写回。</summary>
         public IDictionary<string, object> AdditionalData { get; set; }
+        /// <summary>The query_type property</summary>
+        public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.EbpAdvertiserListV2FilteringQueryType? QueryType { get; set; }
         /// <summary>
         /// 创建 <see cref="global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.EbpAdvertiserListV2Filtering"/>，并填入默认值。
         /// </summary>
@@ -44,13 +46,14 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         /// <summary>
         /// 当前模型的反序列化字段映射。
         /// </summary>
-        /// <returns>IDictionary&lt;string, Action&lt;IParseNode&gt;&gt;</returns>
+        /// <returns>返回 IDictionary&lt;string, Action&lt;IParseNode&gt;&gt;</returns>
         public virtual IDictionary<string, Action<IParseNode>> GetFieldDeserializers()
         {
             return new Dictionary<string, Action<IParseNode>>
             {
                 { "account_name", n => { AccountName = n.GetStringValue(); } },
                 { "active_account", n => { ActiveAccount = n.GetBoolValue(); } },
+                { "query_type", n => { QueryType = n.GetEnumValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.EbpAdvertiserListV2FilteringQueryType>(); } },
             };
         }
         /// <summary>
@@ -62,6 +65,7 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
             if(ReferenceEquals(writer, null)) throw new ArgumentNullException(nameof(writer));
             writer.WriteStringValue("account_name", AccountName);
             writer.WriteBoolValue("active_account", ActiveAccount);
+            writer.WriteEnumValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.EbpAdvertiserListV2FilteringQueryType>("query_type", QueryType);
             writer.WriteAdditionalData(AdditionalData);
         }
     }

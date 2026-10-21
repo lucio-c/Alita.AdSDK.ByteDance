@@ -2,6 +2,7 @@
 #pragma warning disable CS0618
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Ebp.Account;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Ebp.Adv_bind_group;
+using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Ebp.Advertiser_all;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Ebp.Group_bind_account;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Ebp.Sub_group;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Ebp.Task_info;
@@ -28,6 +29,11 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Ebp
         public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Ebp.Adv_bind_group.Adv_bind_groupRequestBuilder Adv_bind_group
         {
             get => new global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Ebp.Adv_bind_group.Adv_bind_groupRequestBuilder(PathParameters, RequestAdapter);
+        }
+        /// <summary>The advertiser_all property</summary>
+        public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Ebp.Advertiser_all.Advertiser_allRequestBuilder Advertiser_all
+        {
+            get => new global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Ebp.Advertiser_all.Advertiser_allRequestBuilder(PathParameters, RequestAdapter);
         }
         /// <summary>The group_bind_account property</summary>
         public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Ebp.Group_bind_account.Group_bind_accountRequestBuilder Group_bind_account

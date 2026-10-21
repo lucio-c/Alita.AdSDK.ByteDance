@@ -7,9 +7,9 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ToolsBidSuggestV2RetargetingType
     {
-        [EnumMember(Value = "NONE")]
+        [EnumMember(Value = "RETARGETING_NONE")]
         #pragma warning disable CS1591
-        NONE,
+        RETARGETING_NONE,
         #pragma warning restore CS1591
         [EnumMember(Value = "RETARGETING_EXCLUDE")]
         #pragma warning disable CS1591
@@ -19,9 +19,9 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         RETARGETING_INCLUDE,
         #pragma warning restore CS1591
-        [EnumMember(Value = "RETARGETING_NONE")]
+        [EnumMember(Value = "NONE")]
         #pragma warning disable CS1591
-        RETARGETING_NONE,
+        NONE,
         #pragma warning restore CS1591
     }
 }

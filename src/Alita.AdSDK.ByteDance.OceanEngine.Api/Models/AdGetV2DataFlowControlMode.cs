@@ -7,25 +7,25 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum AdGetV2DataFlowControlMode
     {
-        [EnumMember(Value = "FLOW_CONTROL_MODE_TWO_PHASES")]
-        #pragma warning disable CS1591
-        FLOW_CONTROL_MODE_TWO_PHASES,
-        #pragma warning restore CS1591
         [EnumMember(Value = "FLOW_CONTROL_MODE_FAST")]
         #pragma warning disable CS1591
         FLOW_CONTROL_MODE_FAST,
         #pragma warning restore CS1591
-        [EnumMember(Value = "FLOW_CONTROL_MODE_HOURLY")]
+        [EnumMember(Value = "FLOW_CONTROL_MODE_SMOOTH")]
         #pragma warning disable CS1591
-        FLOW_CONTROL_MODE_HOURLY,
+        FLOW_CONTROL_MODE_SMOOTH,
         #pragma warning restore CS1591
         [EnumMember(Value = "FLOW_CONTROL_MODE_BALANCE")]
         #pragma warning disable CS1591
         FLOW_CONTROL_MODE_BALANCE,
         #pragma warning restore CS1591
-        [EnumMember(Value = "FLOW_CONTROL_MODE_SMOOTH")]
+        [EnumMember(Value = "FLOW_CONTROL_MODE_TWO_PHASES")]
         #pragma warning disable CS1591
-        FLOW_CONTROL_MODE_SMOOTH,
+        FLOW_CONTROL_MODE_TWO_PHASES,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "FLOW_CONTROL_MODE_HOURLY")]
+        #pragma warning disable CS1591
+        FLOW_CONTROL_MODE_HOURLY,
         #pragma warning restore CS1591
     }
 }

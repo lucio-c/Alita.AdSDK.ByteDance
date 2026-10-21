@@ -7,29 +7,29 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ToolsBidSuggestV2Age
     {
-        [EnumMember(Value = "AGE_BETWEEN_24_30")]
-        #pragma warning disable CS1591
-        AGE_BETWEEN_24_30,
-        #pragma warning restore CS1591
         [EnumMember(Value = "AGE_BETWEEN_18_23")]
         #pragma warning disable CS1591
         AGE_BETWEEN_18_23,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "AGE_BETWEEN_31_40")]
-        #pragma warning disable CS1591
-        AGE_BETWEEN_31_40,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "AGE_ABOVE_50")]
-        #pragma warning disable CS1591
-        AGE_ABOVE_50,
         #pragma warning restore CS1591
         [EnumMember(Value = "AGE_BELOW_18")]
         #pragma warning disable CS1591
         AGE_BELOW_18,
         #pragma warning restore CS1591
+        [EnumMember(Value = "AGE_BETWEEN_24_30")]
+        #pragma warning disable CS1591
+        AGE_BETWEEN_24_30,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "AGE_BETWEEN_31_40")]
+        #pragma warning disable CS1591
+        AGE_BETWEEN_31_40,
+        #pragma warning restore CS1591
         [EnumMember(Value = "AGE_BETWEEN_41_49")]
         #pragma warning disable CS1591
         AGE_BETWEEN_41_49,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "AGE_ABOVE_50")]
+        #pragma warning disable CS1591
+        AGE_ABOVE_50,
         #pragma warning restore CS1591
     }
 }

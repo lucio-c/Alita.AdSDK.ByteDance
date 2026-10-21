@@ -11,13 +11,13 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         LIVE_CONVERT,
         #pragma warning restore CS1591
-        [EnumMember(Value = "EXTERNAL")]
-        #pragma warning disable CS1591
-        EXTERNAL,
-        #pragma warning restore CS1591
         [EnumMember(Value = "APP")]
         #pragma warning disable CS1591
         APP,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "EXTERNAL")]
+        #pragma warning disable CS1591
+        EXTERNAL,
         #pragma warning restore CS1591
     }
 }

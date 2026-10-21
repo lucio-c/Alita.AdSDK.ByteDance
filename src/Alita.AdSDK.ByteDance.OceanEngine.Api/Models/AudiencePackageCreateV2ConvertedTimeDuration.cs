@@ -7,33 +7,33 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum AudiencePackageCreateV2ConvertedTimeDuration
     {
-        [EnumMember(Value = "ONE_MONTH")]
-        #pragma warning disable CS1591
-        ONE_MONTH,
-        #pragma warning restore CS1591
         [EnumMember(Value = "TWELVE_MONTH")]
         #pragma warning disable CS1591
         TWELVE_MONTH,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "THREE_MONTH")]
-        #pragma warning disable CS1591
-        THREE_MONTH,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "NONE")]
-        #pragma warning disable CS1591
-        NONE,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "SEVEN_DAY")]
-        #pragma warning disable CS1591
-        SEVEN_DAY,
         #pragma warning restore CS1591
         [EnumMember(Value = "TODAY")]
         #pragma warning disable CS1591
         TODAY,
         #pragma warning restore CS1591
+        [EnumMember(Value = "THREE_MONTH")]
+        #pragma warning disable CS1591
+        THREE_MONTH,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "ONE_MONTH")]
+        #pragma warning disable CS1591
+        ONE_MONTH,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "SEVEN_DAY")]
+        #pragma warning disable CS1591
+        SEVEN_DAY,
+        #pragma warning restore CS1591
         [EnumMember(Value = "SIX_MONTH")]
         #pragma warning disable CS1591
         SIX_MONTH,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "NONE")]
+        #pragma warning disable CS1591
+        NONE,
         #pragma warning restore CS1591
     }
 }

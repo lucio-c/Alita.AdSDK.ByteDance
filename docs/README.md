@@ -1,6 +1,6 @@
 # 巨量引擎 Marketing API SDK
 
-这个 SDK 给广告投放平台调用巨量引擎开放平台用。当前覆盖官方 Go SDK 中的 Marketing API，包含巨量千川、巨量广告以及账户、素材、报表、资金、OAuth 等接口。业务程序引用 `Alita.AdSDK.ByteDance.OceanEngine`，通过依赖注入拿到强类型客户端，按 URL 路径调用接口。
+这个 SDK 给广告投放平台调用巨量引擎开放平台用。当前对齐官方 Go SDK [v1.1.97](https://github.com/oceanengine/ad_open_sdk_go/tree/v1.1.97)，覆盖其中的 Marketing API，包含巨量千川、巨量广告以及账户、素材、报表、资金、OAuth 等接口。业务程序引用 `Alita.AdSDK.ByteDance.OceanEngine`，通过依赖注入拿到强类型客户端，按 URL 路径调用接口。
 
 ## 解决什么问题
 

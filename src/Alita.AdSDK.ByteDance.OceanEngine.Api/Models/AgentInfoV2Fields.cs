@@ -7,30 +7,6 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum AgentInfoV2Fields
     {
-        [EnumMember(Value = "agent_id")]
-        #pragma warning disable CS1591
-        Agent_id,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "role")]
-        #pragma warning disable CS1591
-        Role,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "customer_name")]
-        #pragma warning disable CS1591
-        Customer_name,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "customer_id")]
-        #pragma warning disable CS1591
-        Customer_id,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "agent_name")]
-        #pragma warning disable CS1591
-        Agent_name,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "company_name")]
-        #pragma warning disable CS1591
-        Company_name,
-        #pragma warning restore CS1591
         [EnumMember(Value = "create_time")]
         #pragma warning disable CS1591
         Create_time,
@@ -42,6 +18,30 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         [EnumMember(Value = "company_id")]
         #pragma warning disable CS1591
         Company_id,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "customer_id")]
+        #pragma warning disable CS1591
+        Customer_id,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "agent_name")]
+        #pragma warning disable CS1591
+        Agent_name,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "customer_name")]
+        #pragma warning disable CS1591
+        Customer_name,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "company_name")]
+        #pragma warning disable CS1591
+        Company_name,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "role")]
+        #pragma warning disable CS1591
+        Role,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "agent_id")]
+        #pragma warning disable CS1591
+        Agent_id,
         #pragma warning restore CS1591
     }
 }

@@ -7,29 +7,29 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum AudiencePackageCreateV2AndroidOsv
     {
-        [EnumMember(Value = "6.0")]
+        [EnumMember(Value = "0.0")]
         #pragma warning disable CS1591
-        SixZero,
+        ZeroZero,
         #pragma warning restore CS1591
-        [EnumMember(Value = "2.1")]
+        [EnumMember(Value = "2.0")]
         #pragma warning disable CS1591
-        TwoOne,
+        TwoZero,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "7.0")]
+        #pragma warning disable CS1591
+        SevenZero,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "4.2")]
+        #pragma warning disable CS1591
+        FourTwo,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "3.0")]
+        #pragma warning disable CS1591
+        ThreeZero,
         #pragma warning restore CS1591
         [EnumMember(Value = "2.3")]
         #pragma warning disable CS1591
         TwoThree,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "3.1")]
-        #pragma warning disable CS1591
-        ThreeOne,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "NONE")]
-        #pragma warning disable CS1591
-        NONE,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "5.1")]
-        #pragma warning disable CS1591
-        FiveOne,
         #pragma warning restore CS1591
         [EnumMember(Value = "10.1")]
         #pragma warning disable CS1591
@@ -39,25 +39,37 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         SevenOne,
         #pragma warning restore CS1591
+        [EnumMember(Value = "6.0")]
+        #pragma warning disable CS1591
+        SixZero,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "11.0")]
+        #pragma warning disable CS1591
+        OneOneZero,
+        #pragma warning restore CS1591
         [EnumMember(Value = "4.0")]
         #pragma warning disable CS1591
         FourZero,
         #pragma warning restore CS1591
-        [EnumMember(Value = "8.0")]
+        [EnumMember(Value = "4.5")]
         #pragma warning disable CS1591
-        EightZero,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "4.2")]
-        #pragma warning disable CS1591
-        FourTwo,
+        FourFive,
         #pragma warning restore CS1591
         [EnumMember(Value = "3.2")]
         #pragma warning disable CS1591
         ThreeTwo,
         #pragma warning restore CS1591
-        [EnumMember(Value = "7.0")]
+        [EnumMember(Value = "4.4")]
         #pragma warning disable CS1591
-        SevenZero,
+        FourFour,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "2.1")]
+        #pragma warning disable CS1591
+        TwoOne,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "2.2")]
+        #pragma warning disable CS1591
+        TwoTwo,
         #pragma warning restore CS1591
         [EnumMember(Value = "4.3")]
         #pragma warning disable CS1591
@@ -67,21 +79,17 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         OneZeroZero,
         #pragma warning restore CS1591
-        [EnumMember(Value = "0.0")]
+        [EnumMember(Value = "5.1")]
         #pragma warning disable CS1591
-        ZeroZero,
+        FiveOne,
         #pragma warning restore CS1591
-        [EnumMember(Value = "2.0")]
+        [EnumMember(Value = "4.1")]
         #pragma warning disable CS1591
-        TwoZero,
+        FourOne,
         #pragma warning restore CS1591
-        [EnumMember(Value = "4.5")]
+        [EnumMember(Value = "8.0")]
         #pragma warning disable CS1591
-        FourFive,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "8.1")]
-        #pragma warning disable CS1591
-        EightOne,
+        EightZero,
         #pragma warning restore CS1591
         [EnumMember(Value = "5.0")]
         #pragma warning disable CS1591
@@ -91,25 +99,17 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         NineZero,
         #pragma warning restore CS1591
-        [EnumMember(Value = "2.2")]
+        [EnumMember(Value = "3.1")]
         #pragma warning disable CS1591
-        TwoTwo,
+        ThreeOne,
         #pragma warning restore CS1591
-        [EnumMember(Value = "4.1")]
+        [EnumMember(Value = "8.1")]
         #pragma warning disable CS1591
-        FourOne,
+        EightOne,
         #pragma warning restore CS1591
-        [EnumMember(Value = "11.0")]
+        [EnumMember(Value = "NONE")]
         #pragma warning disable CS1591
-        OneOneZero,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "3.0")]
-        #pragma warning disable CS1591
-        ThreeZero,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "4.4")]
-        #pragma warning disable CS1591
-        FourFour,
+        NONE,
         #pragma warning restore CS1591
     }
 }

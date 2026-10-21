@@ -7,6 +7,10 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ToolsPlayableListGetV2DataListPlayableOrientation
     {
+        [EnumMember(Value = "LANDSCAPE")]
+        #pragma warning disable CS1591
+        LANDSCAPE,
+        #pragma warning restore CS1591
         [EnumMember(Value = "PORTRAIT")]
         #pragma warning disable CS1591
         PORTRAIT,
@@ -14,10 +18,6 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         [EnumMember(Value = "BOTH")]
         #pragma warning disable CS1591
         BOTH,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "LANDSCAPE")]
-        #pragma warning disable CS1591
-        LANDSCAPE,
         #pragma warning restore CS1591
     }
 }

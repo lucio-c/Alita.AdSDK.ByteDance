@@ -15,5 +15,9 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         EXTERNAL_URL,
         #pragma warning restore CS1591
+        [EnumMember(Value = "QUICK_APP_URL")]
+        #pragma warning disable CS1591
+        QUICK_APP_URL,
+        #pragma warning restore CS1591
     }
 }

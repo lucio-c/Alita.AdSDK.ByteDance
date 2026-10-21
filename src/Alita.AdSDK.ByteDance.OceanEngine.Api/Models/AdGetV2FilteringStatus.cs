@@ -7,69 +7,69 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum AdGetV2FilteringStatus
     {
-        [EnumMember(Value = "AD_STATUS_BALANCE_EXCEED")]
+        [EnumMember(Value = "AD_STATUS_REAUDIT")]
         #pragma warning disable CS1591
-        AD_STATUS_BALANCE_EXCEED,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "AD_STATUS_NOT_DELETE")]
-        #pragma warning disable CS1591
-        AD_STATUS_NOT_DELETE,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "AD_STATUS_CREATE")]
-        #pragma warning disable CS1591
-        AD_STATUS_CREATE,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "AD_STATUS_DELIVERY_OK")]
-        #pragma warning disable CS1591
-        AD_STATUS_DELIVERY_OK,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "AD_STATUS_NOT_START")]
-        #pragma warning disable CS1591
-        AD_STATUS_NOT_START,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "AD_STATUS_DISABLE")]
-        #pragma warning disable CS1591
-        AD_STATUS_DISABLE,
+        AD_STATUS_REAUDIT,
         #pragma warning restore CS1591
         [EnumMember(Value = "AD_STATUS_ALL")]
         #pragma warning disable CS1591
         AD_STATUS_ALL,
         #pragma warning restore CS1591
-        [EnumMember(Value = "AD_STATUS_AUDIT_DENY")]
-        #pragma warning disable CS1591
-        AD_STATUS_AUDIT_DENY,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "AD_STATUS_REAUDIT")]
-        #pragma warning disable CS1591
-        AD_STATUS_REAUDIT,
-        #pragma warning restore CS1591
         [EnumMember(Value = "AD_STATUS_NO_SCHEDULE")]
         #pragma warning disable CS1591
         AD_STATUS_NO_SCHEDULE,
         #pragma warning restore CS1591
-        [EnumMember(Value = "AD_STATUS_AUDIT")]
+        [EnumMember(Value = "AD_STATUS_DISABLE")]
         #pragma warning disable CS1591
-        AD_STATUS_AUDIT,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "AD_STATUS_DELETE")]
-        #pragma warning disable CS1591
-        AD_STATUS_DELETE,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "AD_STATUS_DONE")]
-        #pragma warning disable CS1591
-        AD_STATUS_DONE,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "AD_STATUS_BUDGET_EXCEED")]
-        #pragma warning disable CS1591
-        AD_STATUS_BUDGET_EXCEED,
+        AD_STATUS_DISABLE,
         #pragma warning restore CS1591
         [EnumMember(Value = "AD_STATUS_CAMPAIGN_DISABLE")]
         #pragma warning disable CS1591
         AD_STATUS_CAMPAIGN_DISABLE,
         #pragma warning restore CS1591
+        [EnumMember(Value = "AD_STATUS_AUDIT_DENY")]
+        #pragma warning disable CS1591
+        AD_STATUS_AUDIT_DENY,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "AD_STATUS_NOT_DELETE")]
+        #pragma warning disable CS1591
+        AD_STATUS_NOT_DELETE,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "AD_STATUS_NOT_START")]
+        #pragma warning disable CS1591
+        AD_STATUS_NOT_START,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "AD_STATUS_BUDGET_EXCEED")]
+        #pragma warning disable CS1591
+        AD_STATUS_BUDGET_EXCEED,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "AD_STATUS_DELIVERY_OK")]
+        #pragma warning disable CS1591
+        AD_STATUS_DELIVERY_OK,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "AD_STATUS_CREATE")]
+        #pragma warning disable CS1591
+        AD_STATUS_CREATE,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "AD_STATUS_BALANCE_EXCEED")]
+        #pragma warning disable CS1591
+        AD_STATUS_BALANCE_EXCEED,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "AD_STATUS_DELETE")]
+        #pragma warning disable CS1591
+        AD_STATUS_DELETE,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "AD_STATUS_AUDIT")]
+        #pragma warning disable CS1591
+        AD_STATUS_AUDIT,
+        #pragma warning restore CS1591
         [EnumMember(Value = "AD_STATUS_CAMPAIGN_EXCEED")]
         #pragma warning disable CS1591
         AD_STATUS_CAMPAIGN_EXCEED,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "AD_STATUS_DONE")]
+        #pragma warning disable CS1591
+        AD_STATUS_DONE,
         #pragma warning restore CS1591
     }
 }

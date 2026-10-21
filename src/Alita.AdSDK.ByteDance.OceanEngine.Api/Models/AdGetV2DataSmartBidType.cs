@@ -7,10 +7,6 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum AdGetV2DataSmartBidType
     {
-        [EnumMember(Value = "SMART_BID_CUSTOM")]
-        #pragma warning disable CS1591
-        SMART_BID_CUSTOM,
-        #pragma warning restore CS1591
         [EnumMember(Value = "SMART_BID_NO_BID")]
         #pragma warning disable CS1591
         SMART_BID_NO_BID,
@@ -18,6 +14,10 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         [EnumMember(Value = "SMART_BID_RADICAL")]
         #pragma warning disable CS1591
         SMART_BID_RADICAL,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "SMART_BID_CUSTOM")]
+        #pragma warning disable CS1591
+        SMART_BID_CUSTOM,
         #pragma warning restore CS1591
         [EnumMember(Value = "SMART_BID_CONSERVATIVE")]
         #pragma warning disable CS1591

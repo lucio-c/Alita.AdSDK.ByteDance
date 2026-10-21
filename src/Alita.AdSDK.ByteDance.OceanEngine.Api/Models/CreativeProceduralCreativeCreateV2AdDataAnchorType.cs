@@ -7,17 +7,9 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum CreativeProceduralCreativeCreateV2AdDataAnchorType
     {
-        [EnumMember(Value = "APP_GAME")]
+        [EnumMember(Value = "APP_SHOP")]
         #pragma warning disable CS1591
-        APP_GAME,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "ONLINE_SUBSCRIBE")]
-        #pragma warning disable CS1591
-        ONLINE_SUBSCRIBE,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "PRIVATE_CHAT")]
-        #pragma warning disable CS1591
-        PRIVATE_CHAT,
+        APP_SHOP,
         #pragma warning restore CS1591
         [EnumMember(Value = "INSURANCE")]
         #pragma warning disable CS1591
@@ -27,9 +19,17 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         SHOPPING_CART,
         #pragma warning restore CS1591
-        [EnumMember(Value = "APP_SHOP")]
+        [EnumMember(Value = "APP_GAME")]
         #pragma warning disable CS1591
-        APP_SHOP,
+        APP_GAME,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "PRIVATE_CHAT")]
+        #pragma warning disable CS1591
+        PRIVATE_CHAT,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "ONLINE_SUBSCRIBE")]
+        #pragma warning disable CS1591
+        ONLINE_SUBSCRIBE,
         #pragma warning restore CS1591
         [EnumMember(Value = "APP_INTERNET_SERVICE")]
         #pragma warning disable CS1591

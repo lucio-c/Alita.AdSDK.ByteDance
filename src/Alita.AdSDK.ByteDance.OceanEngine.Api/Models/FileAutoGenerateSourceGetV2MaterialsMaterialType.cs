@@ -7,13 +7,13 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum FileAutoGenerateSourceGetV2MaterialsMaterialType
     {
-        [EnumMember(Value = "image")]
-        #pragma warning disable CS1591
-        Image,
-        #pragma warning restore CS1591
         [EnumMember(Value = "video")]
         #pragma warning disable CS1591
         Video,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "image")]
+        #pragma warning disable CS1591
+        Image,
         #pragma warning restore CS1591
     }
 }

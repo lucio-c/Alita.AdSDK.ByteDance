@@ -7,21 +7,21 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ReportAdGetV2DataListGender
     {
-        [EnumMember(Value = "GENDER_UNLIMITED")]
+        [EnumMember(Value = "GENDER_FEMALE")]
         #pragma warning disable CS1591
-        GENDER_UNLIMITED,
+        GENDER_FEMALE,
         #pragma warning restore CS1591
         [EnumMember(Value = "GENDER_MALE")]
         #pragma warning disable CS1591
         GENDER_MALE,
         #pragma warning restore CS1591
+        [EnumMember(Value = "GENDER_UNLIMITED")]
+        #pragma warning disable CS1591
+        GENDER_UNLIMITED,
+        #pragma warning restore CS1591
         [EnumMember(Value = "NONE")]
         #pragma warning disable CS1591
         NONE,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "GENDER_FEMALE")]
-        #pragma warning disable CS1591
-        GENDER_FEMALE,
         #pragma warning restore CS1591
     }
 }

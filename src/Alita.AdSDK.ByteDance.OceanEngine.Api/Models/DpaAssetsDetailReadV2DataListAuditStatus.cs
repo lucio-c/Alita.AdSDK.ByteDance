@@ -11,10 +11,6 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         ASSETS_AUDIT_DENY,
         #pragma warning restore CS1591
-        [EnumMember(Value = "ASSETS_TO_SUBMIT_AUDIT")]
-        #pragma warning disable CS1591
-        ASSETS_TO_SUBMIT_AUDIT,
-        #pragma warning restore CS1591
         [EnumMember(Value = "ASSETS_PENDING_AUDIT")]
         #pragma warning disable CS1591
         ASSETS_PENDING_AUDIT,
@@ -22,6 +18,10 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         [EnumMember(Value = "ASSETS_AUDIT_SUCCESS")]
         #pragma warning disable CS1591
         ASSETS_AUDIT_SUCCESS,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "ASSETS_TO_SUBMIT_AUDIT")]
+        #pragma warning disable CS1591
+        ASSETS_TO_SUBMIT_AUDIT,
         #pragma warning restore CS1591
     }
 }

@@ -7,21 +7,21 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum AdGetV2DataPromotionType
     {
+        [EnumMember(Value = "LIVE")]
+        #pragma warning disable CS1591
+        LIVE,
+        #pragma warning restore CS1591
         [EnumMember(Value = "AWEME_HOME_PAGE")]
         #pragma warning disable CS1591
         AWEME_HOME_PAGE,
-        #pragma warning restore CS1591
-        [EnumMember(Value = "GOODS")]
-        #pragma warning disable CS1591
-        GOODS,
         #pragma warning restore CS1591
         [EnumMember(Value = "LANDING_PAGE_LINK")]
         #pragma warning disable CS1591
         LANDING_PAGE_LINK,
         #pragma warning restore CS1591
-        [EnumMember(Value = "LIVE")]
+        [EnumMember(Value = "GOODS")]
         #pragma warning disable CS1591
-        LIVE,
+        GOODS,
         #pragma warning restore CS1591
     }
 }

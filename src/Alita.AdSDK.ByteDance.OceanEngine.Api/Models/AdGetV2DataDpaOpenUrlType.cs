@@ -11,13 +11,13 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         #pragma warning disable CS1591
         DPA,
         #pragma warning restore CS1591
-        [EnumMember(Value = "NONE")]
-        #pragma warning disable CS1591
-        NONE,
-        #pragma warning restore CS1591
         [EnumMember(Value = "CUSTOM")]
         #pragma warning disable CS1591
         CUSTOM,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "NONE")]
+        #pragma warning disable CS1591
+        NONE,
         #pragma warning restore CS1591
     }
 }

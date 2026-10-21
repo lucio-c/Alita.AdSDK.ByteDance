@@ -131,10 +131,10 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         /// <summary>The geolocation property</summary>
 #if NETSTANDARD2_1_OR_GREATER || NETCOREAPP3_1_OR_GREATER
 #nullable enable
-        public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.StdProjectListV30ResponseDataListInnerAudienceGeolocation? Geolocation { get; set; }
+        public List<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.StdProjectListV30ResponseDataListInnerAudience_geolocation>? Geolocation { get; set; }
 #nullable restore
 #else
-        public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.StdProjectListV30ResponseDataListInnerAudienceGeolocation Geolocation { get; set; }
+        public List<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.StdProjectListV30ResponseDataListInnerAudience_geolocation> Geolocation { get; set; }
 #endif
         /// <summary>The harmony_osv property</summary>
         public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.StdProjectListV30DataListAudienceHarmonyOsv? HarmonyOsv { get; set; }
@@ -228,7 +228,7 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
         /// <summary>
         /// 当前模型的反序列化字段映射。
         /// </summary>
-        /// <returns>IDictionary&lt;string, Action&lt;IParseNode&gt;&gt;</returns>
+        /// <returns>返回 IDictionary&lt;string, Action&lt;IParseNode&gt;&gt;</returns>
         public virtual IDictionary<string, Action<IParseNode>> GetFieldDeserializers()
         {
             return new Dictionary<string, Action<IParseNode>>
@@ -254,7 +254,7 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
                 { "filter_own_aweme_fans", n => { FilterOwnAwemeFans = n.GetEnumValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.StdProjectListV30DataListAudienceFilterOwnAwemeFans>(); } },
                 { "flow_package", n => { FlowPackage = n.GetCollectionOfPrimitiveValues<long?>()?.AsList(); } },
                 { "gender", n => { Gender = n.GetEnumValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.StdProjectListV30DataListAudienceGender>(); } },
-                { "geolocation", n => { Geolocation = n.GetObjectValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.StdProjectListV30ResponseDataListInnerAudienceGeolocation>(global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.StdProjectListV30ResponseDataListInnerAudienceGeolocation.CreateFromDiscriminatorValue); } },
+                { "geolocation", n => { Geolocation = n.GetCollectionOfObjectValues<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.StdProjectListV30ResponseDataListInnerAudience_geolocation>(global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.StdProjectListV30ResponseDataListInnerAudience_geolocation.CreateFromDiscriminatorValue)?.AsList(); } },
                 { "harmony_osv", n => { HarmonyOsv = n.GetEnumValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.StdProjectListV30DataListAudienceHarmonyOsv>(); } },
                 { "hide_if_converted", n => { HideIfConverted = n.GetEnumValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.StdProjectListV30DataListAudienceHideIfConverted>(); } },
                 { "hide_if_exists", n => { HideIfExists = n.GetEnumValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.StdProjectListV30DataListAudienceHideIfExists>(); } },
@@ -300,7 +300,7 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
             writer.WriteEnumValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.StdProjectListV30DataListAudienceFilterOwnAwemeFans>("filter_own_aweme_fans", FilterOwnAwemeFans);
             writer.WriteCollectionOfPrimitiveValues<long?>("flow_package", FlowPackage);
             writer.WriteEnumValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.StdProjectListV30DataListAudienceGender>("gender", Gender);
-            writer.WriteObjectValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.StdProjectListV30ResponseDataListInnerAudienceGeolocation>("geolocation", Geolocation);
+            writer.WriteCollectionOfObjectValues<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.StdProjectListV30ResponseDataListInnerAudience_geolocation>("geolocation", Geolocation);
             writer.WriteEnumValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.StdProjectListV30DataListAudienceHarmonyOsv>("harmony_osv", HarmonyOsv);
             writer.WriteEnumValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.StdProjectListV30DataListAudienceHideIfConverted>("hide_if_converted", HideIfConverted);
             writer.WriteEnumValue<global::Alita.AdSDK.ByteDance.OceanEngine.Api.Models.StdProjectListV30DataListAudienceHideIfExists>("hide_if_exists", HideIfExists);

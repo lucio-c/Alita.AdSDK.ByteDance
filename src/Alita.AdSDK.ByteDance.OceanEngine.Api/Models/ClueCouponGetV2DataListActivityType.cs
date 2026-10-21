@@ -7,13 +7,13 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Models
     [global::System.CodeDom.Compiler.GeneratedCode("Kiota", "1.0.0")]
     public enum ClueCouponGetV2DataListActivityType
     {
-        [EnumMember(Value = "DIRECT_NOT_NEED_PHONE")]
-        #pragma warning disable CS1591
-        DIRECT_NOT_NEED_PHONE,
-        #pragma warning restore CS1591
         [EnumMember(Value = "DIRECT_NEED_PHONE")]
         #pragma warning disable CS1591
         DIRECT_NEED_PHONE,
+        #pragma warning restore CS1591
+        [EnumMember(Value = "DIRECT_NOT_NEED_PHONE")]
+        #pragma warning disable CS1591
+        DIRECT_NOT_NEED_PHONE,
         #pragma warning restore CS1591
     }
 }

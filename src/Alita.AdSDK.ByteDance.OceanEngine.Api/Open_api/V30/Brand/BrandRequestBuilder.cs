@@ -10,6 +10,7 @@ using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Brand.Creative;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Brand.Custom_audience;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Brand.FileNamespace;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Brand.Knowledge_qa;
+using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Brand.Ma;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Brand.Material;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Brand.Operation_log;
 using Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Brand.Order;
@@ -82,6 +83,11 @@ namespace Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Brand
         public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Brand.Knowledge_qa.Knowledge_qaRequestBuilder Knowledge_qa
         {
             get => new global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Brand.Knowledge_qa.Knowledge_qaRequestBuilder(PathParameters, RequestAdapter);
+        }
+        /// <summary>The ma property</summary>
+        public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Brand.Ma.MaRequestBuilder Ma
+        {
+            get => new global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Brand.Ma.MaRequestBuilder(PathParameters, RequestAdapter);
         }
         /// <summary>The material property</summary>
         public global::Alita.AdSDK.ByteDance.OceanEngine.Api.Open_api.V30.Brand.Material.MaterialRequestBuilder Material
